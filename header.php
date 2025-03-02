@@ -16,11 +16,6 @@ $sitename = $header['sitename'];
 $social_links = $header['social_links'];
 $logo_bottom = $header['logo_bottom'];
 
-echo '<pre>';
-print_r($logo_bottom);
-echo '</pre>';
-// die();
-
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>

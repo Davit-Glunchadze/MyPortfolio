@@ -1,4 +1,9 @@
-
+<?php
+// echo '<pre>';
+// print_r($logo_bottom);
+// echo '</pre>';
+// // die();
+?>
 
 <?php get_header(); ?>
 
