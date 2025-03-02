@@ -7,8 +7,10 @@
 
 <?php get_header(); ?>
 
+<div class="hero">
+    <h1>Hello</h1>
+</div>
 
-<h1>Hello</h1>
 
 
 <?php get_footer(); ?>

@@ -3,7 +3,7 @@ Theme Name: MyPortfolio
 Theme URI: http://underscores.me/ 
 Author: Underscores.me
 Author URI: http://underscores.me/
-Description: This is a combination of two parts: the iPortfolio template and the Underscore starter theme. iPortfolio is a freely usable template and uses the Bootstrap framework. Underscore is a theme for WordPress. It is a simple, clean, and responsive theme for personal portfolio websites. It is based on the Underscores starter theme.
+Description: This is a combination of two parts: the iPortfolio template and the Underscore starter theme. iPortfolio is a freely usable template and uses the Bootstrap framework. Underscore is a theme for WordPress. It is a simple, clean, and responsive theme for personal portfolio websites. It is based on the Underscores starter theme. 
 Version: 1.0.0
 Tested up to: 5.4
 Requires PHP: 5.6
@@ -99,3 +99,81 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 	font-family: var(--heading-font);
   }
 
+/*--------------------------------------------------------------
+# Global Page Titles & Breadcrumbs
+--------------------------------------------------------------*/
+.page-title {
+	color: var(--default-color);
+	background-color: var(--background-color);
+	padding: 25px 0;
+	position: relative;
+  }
+  
+  .page-title h1 {
+	font-size: 24px;
+	font-weight: 700;
+  }
+  
+  .page-title .breadcrumbs ol {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+	font-weight: 400;
+  }
+  
+  .page-title .breadcrumbs ol li+li {
+	padding-left: 10px;
+  }
+  
+  .page-title .breadcrumbs ol li+li::before {
+	content: "/";
+	display: inline-block;
+	padding-right: 10px;
+	color: color-mix(in srgb, var(--default-color), transparent 70%);
+  }
+  
+  /*--------------------------------------------------------------
+  # Global Sections
+  --------------------------------------------------------------*/
+  section,
+  .section {
+	color: var(--default-color);
+	background-color: var(--background-color);
+	padding: 60px 0;
+	overflow: clip;
+  }
+  
+  /*--------------------------------------------------------------
+  # Global Section Titles
+  --------------------------------------------------------------*/
+  .section-title {
+	padding-bottom: 60px;
+	position: relative;
+  }
+  
+  .section-title h2 {
+	font-size: 32px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	position: relative;
+  }
+  
+  .section-title h2:after {
+	content: "";
+	position: absolute;
+	display: block;
+	width: 50px;
+	height: 3px;
+	background: var(--accent-color);
+	left: 0;
+	bottom: 0;
+  }
+  
+  .section-title p {
+	margin-bottom: 0;
+  }
+  
