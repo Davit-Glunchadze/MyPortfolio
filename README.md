@@ -68,3 +68,10 @@ $ npm install
 Now you're ready to go! The next step is easy to say, but harder to do: make an awesome WordPress theme. :)
 
 Good luck!
+
+
+ეს არის ჩემი პროექტი, რომელიც იყენებს Composer-ით მართვად ბიბლიოთეკებს.
+
+## Composer-ის ინსტალაცია
+
+1. თუ ჯერ არ გაქვთ Composer ინსტალირებული, გთხოვთ, მიჰყევით Composer-ის ოფიციალურ ინსტრუქციას: [Composer Installation](https://getcomposer.org/download/)
