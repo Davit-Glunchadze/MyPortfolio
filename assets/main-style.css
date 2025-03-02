@@ -38,11 +38,22 @@
   margin-right: 8px;
 }
 
+.header .logo img:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+
 .header .logo h1 {
   font-size: 24px;
   margin: 0;
   font-weight: 700;
   color: var(--heading-color);
+}
+
+.sitename p {
+  margin: 10px;
+  font-size: 26px;
+  text-align: center;
 }
 
 .header .social-links {
@@ -75,8 +86,8 @@
 .header .social-links a:hover {
   color: var(--contrast-color);
   background: var(--accent-color);
+  transform: scale(1.1);
 }
-
 
 @media (min-width: 1200px) {
   .header ~ main,
@@ -118,7 +129,6 @@
   background-color: color-mix(in srgb, var(--accent-color) 90%, white 15%);
 }
 
-
 /*--------------------------------------------------------------
   # Navigation Menu
   --------------------------------------------------------------*/
@@ -151,6 +161,14 @@
   width: 100%;
 }
 
+.menu-header-menu-container a:hover,
+.menu-header-menu-container a:focus {
+  color: var(--accent-color);
+  background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+  transform: scale(1.05);
+  border-radius: 10px;
+}
+
 .menu-header-menu-container a img,
 .menu-header-menu-container a:focus img {
   font-size: 20px;
@@ -160,6 +178,3 @@
 .menu-header-menu-container ul li a i {
   padding-right: 10px;
 }
-
-
-

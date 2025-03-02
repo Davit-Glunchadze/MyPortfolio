@@ -9,6 +9,18 @@
  * @package MyPortfolio
  */
 
+$header = get_field('header');
+$favicon_logo = $header['favicon_logo'];
+$profile_image = $header['profile_image'];
+$sitename = $header['sitename'];
+$social_links = $header['social_links'];
+$logo_bottom = $header['logo_bottom'];
+
+echo '<pre>';
+print_r($logo_bottom);
+echo '</pre>';
+// die();
+
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
@@ -16,11 +28,15 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-	
-	<!-- Favicons -->
-	<link href="<?php echo get_template_directory_uri() . "/assets/img/icon/D-icon.png"?>" rel="icon">
-  	<link href="<?php echo get_template_directory_uri() . "/assets/img/apple-touch-icon.png"?>" rel="apple-touch-icon">
 
+	<!-- Favicons -->
+	<?php if ($favicon_logo) : ?>
+    <link href="<?php echo esc_url($favicon_logo['url']); ?>" rel="icon" type="image/png">
+	<?php else: ?>
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/img/favicon.ico" rel="icon" type="image/x-icon">
+	<?php endif; ?>
+
+	
   	<!-- Fonts -->
   	<link href="https://fonts.googleapis.com" rel="preconnect">
 	<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
@@ -29,7 +45,7 @@
 
 
   	<!-- Vendor CSS Files -->
-  	<!-- <link href="<?php echo get_template_directory_uri() . "/vendor/bootstrap/css/bootstrap-grid.min.css"; ?>" rel="stylesheet"> -->
+  	<link href="<?php echo get_template_directory_uri() . "/vendor/bootstrap/css/bootstrap-grid.min.css"; ?>" rel="stylesheet">
 	<link href="<?php echo get_template_directory_uri() . "/vendor/bootstrap-icons/bootstrap-icons.css"; ?>" rel="stylesheet">
 	<link href="<?php echo get_template_directory_uri() . "/vendor/aos/aos.css"; ?>" rel="stylesheet">
 	<link href="<?php echo get_template_directory_uri() . "/vendor/glightbox/css/glightbox.min.css"; ?>" rel="stylesheet">
@@ -47,22 +63,33 @@
 	<header id="header" class="header dark-background d-flex flex-column">
     	<i class="header-toggle d-xl-none bi bi-list"></i>
 
-    	<div class="profile-img">
-    	  <img src="<?php echo get_template_directory_uri() . "/assets/img/my-profile-img.jpg" ?>" alt="main-profile-img">
-    	</div>
+		<!-- profile image -->
+		<div class="profile-img">
+    		<?php if ($profile_image && isset($profile_image['url'])) : ?>
+    		    <img src="<?php echo esc_url($profile_image['url']); ?>" 
+    		         alt="<?php echo esc_attr($profile_image['alt'] ?: 'profile-photo'); ?>">
+    		<?php else: ?>
+    		    <img src="<?php echo get_template_directory_uri() . "/assets/img/my-profile-img.jpg"; ?>" 
+    		         alt="profile-photo">
+    		<?php endif; ?>
+		</div>
 
-    	<a href="index.html" class="logo d-flex align-items-center justify-content-center">
-    	  <h1 class="sitename">David Glunchadze</h1>
+		<!-- site name -->
+		<a href="<?php echo esc_url(home_url('/')); ?>">
+    	  <h1 class="sitename"><?php echo $sitename ?> </h1>
     	</a>
 
+		<!-- social links -->
     	<div class="social-links text-center">
-    	  <a href="#" class="twitter"><img src="<?php echo get_template_directory_uri() . "/assets/img/social/twitter.png" ?>" alt="twiter icon"></a>
-    	  <a href="#" class="facebook"><img src="<?php echo get_template_directory_uri() . "/assets/img/social/facebook.png" ?>" alt="facebook icon"></a>
-    	  <a href="#" class="instagram"><img src="<?php echo get_template_directory_uri() . "/assets/img/social/instagram.png" ?>" alt="instagram icon"></a>
-    	  <a href="#" class="github"><img src="<?php echo get_template_directory_uri() . "/assets/img/social/github.png" ?>" alt="github icon"></a>
-    	  <a href="#" class="linkedin"><img src="<?php echo get_template_directory_uri() . "/assets/img/social/linkedin.png" ?>" alt="linkedin icon"></a>
+			<?php foreach ($social_links as $social) : ?>
+				<?php if ($social['logo']) : ?>
+					<a href="<?php echo esc_url($social['link']); ?>" target="_blank">
+    					<img src="<?php echo esc_url($social['logo']); ?>" alt="icon">
+					</a>
+				<?php endif; ?>
+			<?php endforeach; ?>
     	</div>
-
+		<!-- navigation menu -->
 		<nav id="site-navigation" class="main-navigation">
 			<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'myportfolio' ); ?></button> -->
 			<?php
@@ -74,8 +101,9 @@
 				)
 			);			
 			?>
-		</nav><!-- #site-navigation -->
+		</nav>
+		<!-- logo bottom -->
 		<div class="logo">
-			<a href="#"><img src="<?php echo get_template_directory_uri() . "/assets/img/icon/D-icon.png"?>" alt="logo"></a>
+			<a href="<?php echo esc_url(home_url('/')); ?>"><img src="<?php echo esc_url($logo_bottom);?>" alt="logo"></a>
 		</div>
 	</header><!-- #masthead -->
