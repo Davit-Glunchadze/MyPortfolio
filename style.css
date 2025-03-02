@@ -3,7 +3,7 @@ Theme Name: MyPortfolio
 Theme URI: http://underscores.me/ 
 Author: Underscores.me
 Author URI: http://underscores.me/
-Description: This is a combination of two parts: the iPortfolio template and the Underscore starter theme. iPortfolio is a freely usable template and uses the Bootstrap framework. Underscore is a theme for WordPress. It is a simple, clean, and responsive theme for personal portfolio websites. It is based on the Underscores starter theme.
+Description: This is a combination of two parts: the iPortfolio template and the Underscore starter theme. iPortfolio is a freely usable template and uses the Bootstrap framework. Underscore is a theme for WordPress. It is a simple, clean, and responsive theme for personal portfolio websites. It is based on the Underscores starter theme. 
 Version: 1.0.0
 Tested up to: 5.4
 Requires PHP: 5.6
@@ -99,86 +99,7 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 	font-family: var(--heading-font);
   }
 
-  /*--------------------------------------------------------------
-# Preloader
---------------------------------------------------------------*/
-#preloader {
-	position: fixed;
-	inset: 0;
-	z-index: 999999;
-	overflow: hidden;
-	background: var(--background-color);
-	transition: all 0.6s ease-out;
-  }
-  
-  #preloader:before {
-	content: "";
-	position: fixed;
-	top: calc(50% - 30px);
-	left: calc(50% - 30px);
-	border: 6px solid #ffffff;
-	border-color: var(--accent-color) transparent var(--accent-color) transparent;
-	border-radius: 50%;
-	width: 60px;
-	height: 60px;
-	animation: animate-preloader 1.5s linear infinite;
-  }
-  
-  @keyframes animate-preloader {
-	0% {
-	  transform: rotate(0deg);
-	}
-  
-	100% {
-	  transform: rotate(360deg);
-	}
-  }
-  
-  /*--------------------------------------------------------------
-  # Scroll Top Button
-  --------------------------------------------------------------*/
-  .scroll-top {
-	position: fixed;
-	visibility: hidden;
-	opacity: 0;
-	right: 15px;
-	bottom: -15px;
-	z-index: 99999;
-	background-color: var(--accent-color);
-	width: 44px;
-	height: 44px;
-	border-radius: 50px;
-	transition: all 0.4s;
-  }
-  
-  .scroll-top i {
-	font-size: 24px;
-	color: var(--contrast-color);
-	line-height: 0;
-  }
-  
-  .scroll-top:hover {
-	background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
-	color: var(--contrast-color);
-  }
-  
-  .scroll-top.active {
-	visibility: visible;
-	opacity: 1;
-	bottom: 15px;
-  }
-  
-  /*--------------------------------------------------------------
-  # Disable aos animation delay on mobile devices
-  --------------------------------------------------------------*/
-  @media screen and (max-width: 768px) {
-	[data-aos-delay] {
-	  transition-delay: 0 !important;
-	}
-  }
-  
-
-  /*--------------------------------------------------------------
+/*--------------------------------------------------------------
 # Global Page Titles & Breadcrumbs
 --------------------------------------------------------------*/
 .page-title {
@@ -256,4 +177,3 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 	margin-bottom: 0;
   }
   
-
