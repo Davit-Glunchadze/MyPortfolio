@@ -211,3 +211,47 @@ function my_acf_json_load_point( $paths ) {
     return $paths;
 }
 add_filter('acf/settings/load_json', 'my_acf_json_load_point');
+
+/**
+ * Add custom walker for nav menu
+ */
+class Custom_Walker_Nav_Menu extends Walker_Nav_Menu {
+    function start_el(&$output, $item, $depth = 0, $args = null, $id = 0) {
+        $icons = array(
+            'home'      => '<i class="bi bi-house-door"></i>',
+            'about'     => '<i class="bi bi-person"></i>',
+            'services'  => '<i class="bi bi-tools"></i>',
+            'contact'   => '<i class="bi bi-envelope"></i>',
+            'portfolio' => '<i class="bi bi-briefcase"></i>',
+            'resume'    => '<i class="bi bi-file-earmark-text"></i>',
+        );
+
+        $menu_title = strtolower(trim($item->title)); // პატარა ასოებად გადაყვანა
+        $icon = isset($icons[$menu_title]) ? $icons[$menu_title] : '<i class="fa-solid fa-crown"></i>'; // Default icon
+
+        $output .= sprintf(
+            '<li class="%s"><a href="%s">%s %s</a>',
+            implode(" ", $item->classes),
+            esc_url($item->url),
+            $icon,
+            esc_html($item->title)
+        );
+    }
+}
+
+/**
+ * Add Enqueue custom styles
+ */
+function enqueue_font_awesome() {
+    wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css', array(), '6.4.2');
+}
+add_action('wp_enqueue_scripts', 'enqueue_font_awesome');
+
+
+
+/**
+ * Remove wordpress admin bar
+ */
+add_filter('show_admin_bar', '__return_false');
+
+
