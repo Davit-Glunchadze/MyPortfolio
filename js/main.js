@@ -13,13 +13,14 @@
    * Header toggle
    */
   const headerToggleBtn = document.querySelector('.header-toggle');
-
   function headerToggle() {
     document.querySelector('#header').classList.toggle('header-show');
     headerToggleBtn.classList.toggle('bi-list');
     headerToggleBtn.classList.toggle('bi-x');
   }
-  headerToggleBtn.addEventListener('click', headerToggle);
+  if (headerToggleBtn) {
+    headerToggleBtn.addEventListener('click', headerToggle);
+  }
 
   /**
    * Hide mobile nav on same-page/hash links
@@ -30,7 +31,6 @@
         headerToggle();
       }
     });
-
   });
 
   /**
@@ -59,19 +59,20 @@
    * Scroll top button
    */
   let scrollTop = document.querySelector('.scroll-top');
-
   function toggleScrollTop() {
     if (scrollTop) {
       window.scrollY > 100 ? scrollTop.classList.add('active') : scrollTop.classList.remove('active');
     }
   }
-  scrollTop.addEventListener('click', (e) => {
-    e.preventDefault();
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
+  if (scrollTop) {
+    scrollTop.addEventListener('click', (e) => {
+      e.preventDefault();
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
     });
-  });
+  }
 
   window.addEventListener('load', toggleScrollTop);
   document.addEventListener('scroll', toggleScrollTop);
@@ -80,35 +81,46 @@
    * Animation on scroll function and init
    */
   function aosInit() {
-    AOS.init({
-      duration: 600,
-      easing: 'ease-in-out',
-      once: true,
-      mirror: false
-    });
+    if (typeof AOS !== 'undefined') {
+      AOS.init({
+        duration: 600,
+        easing: 'ease-in-out',
+        once: true,
+        mirror: false
+      });
+    }
   }
   window.addEventListener('load', aosInit);
 
   /**
    * Init typed.js
    */
-  const selectTyped = document.querySelector('.typed');
-  if (selectTyped) {
-    let typed_strings = selectTyped.getAttribute('data-typed-items');
-    typed_strings = typed_strings.split(',');
-    new Typed('.typed', {
-      strings: typed_strings,
-      loop: true,
-      typeSpeed: 100,
-      backSpeed: 50,
-      backDelay: 2000
-    });
-  }
+  document.addEventListener('DOMContentLoaded', function() {
+    // Typed.js initialization (if needed)
+    const selectTyped = document.querySelector('.typed');
+    if (selectTyped) {
+        let typed_strings = selectTyped.getAttribute('data-typed-items');
+        typed_strings = typed_strings.split(',');
+        if (typeof Typed !== 'undefined') {
+            new Typed('.typed', {
+                strings: typed_strings,
+                loop: true,
+                typeSpeed: 100,
+                backSpeed: 50,
+                backDelay: 2000
+            });
+        } else {
+            console.error("Typed.js is not loaded.");
+        }
+    }
 
-  /**
-   * Initiate Pure Counter
-   */
-  new PureCounter();
+    // PureCounter initialization
+    if (typeof PureCounter !== 'undefined') {
+        new PureCounter();
+    } else {
+        console.error("PureCounter script is not loaded.");
+    }
+  });
 
   /**
    * Animate the skills items on reveal
@@ -130,9 +142,25 @@
   /**
    * Initiate glightbox
    */
-  const glightbox = GLightbox({
-    selector: '.glightbox'
+  
+  // Ensure GLightbox is loaded before initializing
+  document.addEventListener('DOMContentLoaded', function() {
+    if (typeof GLightbox !== 'undefined') {
+        const glightbox = GLightbox({
+            selector: '.glightbox'
+        });
+    } else {
+        console.error("GLightbox script is not loaded.");
+    }
   });
+
+if (typeof GLightbox !== 'undefined') {
+    const glightbox = GLightbox({
+      selector: '.glightbox'
+    });
+  } else {
+    console.error("GLightbox script is not loaded.");
+  }
 
   /**
    * Init isotope layout and filters

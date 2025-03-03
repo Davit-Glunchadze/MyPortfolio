@@ -30,15 +30,9 @@
 			<p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p>
 		  </div>
 		  <div class="credits">
-			<!-- All the links in the footer should remain intact. -->
-			<!-- You can delete the links only if you've purchased the pro version. -->
-			<!-- Licensing information: https://bootstrapmade.com/license/ -->
-			<!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
 			Designed by <a href="https://getbootstrap.com/" target="_blanck">Bootstrap,</a> main theme by <a href="https://underscores.me/" target="_blanck">underscore</a>
 		  </div>
 		</div>
-
-		
 
 	</footer>
 </div><!-- #page -->
@@ -51,9 +45,6 @@
 <div id="preloader"></div>
 
 <?php wp_footer(); ?>
-
-<!-- Main JS File -->
-<script src="js/main.js"></script>
 
 </body>
 </html>

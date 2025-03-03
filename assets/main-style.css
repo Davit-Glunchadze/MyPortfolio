@@ -1,8 +1,7 @@
-
 /*--------------------------------------------------------------
 # Global zero
 --------------------------------------------------------------*/
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -161,7 +160,7 @@
   color: var(--nav-color);
   padding: 15px 10px;
   font-family: var(--nav-font);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   display: flex;
   align-items: center;
@@ -219,7 +218,7 @@
   text-align: center;
 }
 
-.menu-footer-more-container ul li{
+.menu-footer-more-container ul li {
   color: var(--nav-color);
   padding: 15px 10px;
   font-family: var(--nav-font);
@@ -230,19 +229,17 @@
   transition: 0.3s;
 }
 
-.menu-footer-more-container ul li:hover{
+.menu-footer-more-container ul li:hover {
   color: var(--accent-color);
   transform: scale(1.01);
 }
 
-.menu-footer-more-container ul{
+.menu-footer-more-container ul {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
 }
-
-
 
 /*--------------------------------------------------------------
 # Preloader
@@ -321,19 +318,87 @@
     transition-delay: 0 !important;
   }
 
-  .menu-footer-more-container ul{
+  .menu-footer-more-container ul {
     flex-wrap: wrap;
     gap: 15px;
   }
 
-  .menu-footer-more-container ul li{
+  .menu-footer-more-container ul li {
     padding: 0;
     font-size: 14px;
   }
-
 }
 
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-.hero h1{
-  margin-bottom: 1500px;
+.hero img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* .mirrored {
+  transform: scaleX(-1)!important;
+} */
+
+.hero:before {
+  content: "";
+  background: color-mix(in srgb, var(--background-color), transparent 20%);
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
+
+.hero .container {
+  position: relative;
+  z-index: 3;
+  margin-left: 300px;
+}
+
+.hero h2 {
+  margin: 0 0 20px 0;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.hero p {
+  margin: 5px 0 0 0;
+  font-size: 26px;
+  word-spacing: 10px;
+}
+
+.hero p span {
+  letter-spacing: 1px;
+  border-bottom: 2px solid var(--accent-color);
+}
+
+@media screen and (max-width: 1023px) {
+  .hero .container {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero h2 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 20px;
+  }
 }
