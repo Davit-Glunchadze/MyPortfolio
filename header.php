@@ -28,30 +28,15 @@ $logo_bottom = $header['logo_bottom'];
 	<?php if ($favicon_logo) : ?>
     <link href="<?php echo esc_url($favicon_logo['url']); ?>" rel="icon" type="image/png">
 	<?php else: ?>
-    <link href="<?php echo get_template_directory_uri(); ?>/assets/img/favicon.ico" rel="icon" type="image/x-icon">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/img/icon/D-con.png" rel="icon" type="image/x-icon">
 	<?php endif; ?>
-
-	
-  	<!-- Fonts -->
-  	<link href="https://fonts.googleapis.com" rel="preconnect">
-	<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/icofont/1.0.1/css/icofont.min.css">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-
-  	<!-- Vendor CSS Files -->
-  	<link href="<?php echo get_template_directory_uri() . "/vendor/bootstrap/css/bootstrap-grid.min.css"; ?>" rel="stylesheet">
-	<link href="<?php echo get_template_directory_uri() . "/vendor/bootstrap-icons/bootstrap-icons.css"; ?>" rel="stylesheet">
-	<link href="<?php echo get_template_directory_uri() . "/vendor/aos/aos.css"; ?>" rel="stylesheet">
-	<link href="<?php echo get_template_directory_uri() . "/vendor/glightbox/css/glightbox.min.css"; ?>" rel="stylesheet">
-	<link href="<?php echo get_template_directory_uri() . "/vendor/swiper/swiper-bundle.min.css"; ?>" rel="stylesheet">
-
 
 	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
+
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'myportfolio' ); ?></a>
 		
