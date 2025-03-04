@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.7.2" created="2025-03-03 18:23" -->
+	
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -27,13 +27,13 @@
 
 <channel>
 	<title>MyPortfolio</title>
-	<link>http://myportfolio.loc</link>
+	<link>https://myportfolio.loc</link>
 	<description></description>
-	<pubDate>Mon, 03 Mar 2025 18:23:38 +0000</pubDate>
+	<pubDate>Tue, 04 Mar 2025 18:17:05 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
-	<wp:base_site_url>http://myportfolio.loc</wp:base_site_url>
-	<wp:base_blog_url>http://myportfolio.loc</wp:base_blog_url>
+	<wp:base_site_url>https://myportfolio.loc</wp:base_site_url>
+	<wp:base_blog_url>https://myportfolio.loc</wp:base_blog_url>
 
 		<wp:author><wp:author_id>1</wp:author_id><wp:author_login><![CDATA[gluncha]]></wp:author_login><wp:author_email><![CDATA[davitiglunchadze@gmail.com]]></wp:author_email><wp:author_display_name><![CDATA[gluncha]]></wp:author_display_name><wp:author_first_name><![CDATA[]]></wp:author_first_name><wp:author_last_name><![CDATA[]]></wp:author_last_name></wp:author>
 
@@ -69,11 +69,11 @@
 	<wp:term><wp:term_id>2</wp:term_id><wp:term_taxonomy>nav_menu</wp:term_taxonomy><wp:term_slug><![CDATA[header-menu]]></wp:term_slug><wp:term_name><![CDATA[Header menu]]></wp:term_name>
 </wp:term>
 
-	<generator>https://wordpress.org/?v=6.7.2</generator>
+	
 
 		<item>
 		<title><![CDATA[header]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=24</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=24</link>
 		<pubDate>Sun, 02 Mar 2025 13:13:44 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=24</guid>
@@ -97,7 +97,7 @@
 														</item>
 					<item>
 		<title><![CDATA[favicon_logo]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=25</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=25</link>
 		<pubDate>Sun, 02 Mar 2025 13:13:44 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=25</guid>
@@ -121,7 +121,7 @@
 														</item>
 					<item>
 		<title><![CDATA[profile_image]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=26</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=26</link>
 		<pubDate>Sun, 02 Mar 2025 13:13:44 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=26</guid>
@@ -145,7 +145,7 @@
 														</item>
 					<item>
 		<title><![CDATA[sitename]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=27</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=27</link>
 		<pubDate>Sun, 02 Mar 2025 13:13:44 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=27</guid>
@@ -155,8 +155,8 @@
 		<wp:post_id>27</wp:post_id>
 		<wp:post_date><![CDATA[2025-03-02 13:13:44]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-03-02 13:13:44]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-03-02 14:36:08]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-03-02 14:36:08]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-03-04 16:23:01]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-03-04 16:23:01]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[field_67c4586bdce30]]></wp:post_name>
@@ -169,7 +169,7 @@
 														</item>
 					<item>
 		<title><![CDATA[social_links]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=28</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=28</link>
 		<pubDate>Sun, 02 Mar 2025 13:13:44 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=28</guid>
@@ -193,7 +193,7 @@
 														</item>
 					<item>
 		<title><![CDATA[twitter]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=29</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=29</link>
 		<pubDate>Sun, 02 Mar 2025 13:13:44 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=29</guid>
@@ -217,7 +217,7 @@
 														</item>
 					<item>
 		<title><![CDATA[logo]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=30</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=30</link>
 		<pubDate>Sun, 02 Mar 2025 13:13:44 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=30</guid>
@@ -241,7 +241,7 @@
 														</item>
 					<item>
 		<title><![CDATA[link]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=31</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=31</link>
 		<pubDate>Sun, 02 Mar 2025 13:13:44 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=31</guid>
@@ -265,7 +265,7 @@
 														</item>
 					<item>
 		<title><![CDATA[facebook]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=32</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=32</link>
 		<pubDate>Sun, 02 Mar 2025 13:13:44 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=32</guid>
@@ -289,7 +289,7 @@
 														</item>
 					<item>
 		<title><![CDATA[logo]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=33</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=33</link>
 		<pubDate>Sun, 02 Mar 2025 13:13:44 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=33</guid>
@@ -313,7 +313,7 @@
 														</item>
 					<item>
 		<title><![CDATA[link]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=34</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=34</link>
 		<pubDate>Sun, 02 Mar 2025 13:13:44 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=34</guid>
@@ -337,7 +337,7 @@
 														</item>
 					<item>
 		<title><![CDATA[instagram]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=35</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=35</link>
 		<pubDate>Sun, 02 Mar 2025 13:13:44 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=35</guid>
@@ -361,7 +361,7 @@
 														</item>
 					<item>
 		<title><![CDATA[logo]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=36</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=36</link>
 		<pubDate>Sun, 02 Mar 2025 13:13:44 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=36</guid>
@@ -385,7 +385,7 @@
 														</item>
 					<item>
 		<title><![CDATA[link]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=37</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=37</link>
 		<pubDate>Sun, 02 Mar 2025 13:13:44 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=37</guid>
@@ -409,7 +409,7 @@
 														</item>
 					<item>
 		<title><![CDATA[github]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=38</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=38</link>
 		<pubDate>Sun, 02 Mar 2025 13:13:44 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=38</guid>
@@ -433,7 +433,7 @@
 														</item>
 					<item>
 		<title><![CDATA[logo]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=39</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=39</link>
 		<pubDate>Sun, 02 Mar 2025 13:13:44 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=39</guid>
@@ -457,7 +457,7 @@
 														</item>
 					<item>
 		<title><![CDATA[link]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=40</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=40</link>
 		<pubDate>Sun, 02 Mar 2025 13:13:44 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=40</guid>
@@ -481,7 +481,7 @@
 														</item>
 					<item>
 		<title><![CDATA[linkedin]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=41</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=41</link>
 		<pubDate>Sun, 02 Mar 2025 13:13:44 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=41</guid>
@@ -505,7 +505,7 @@
 														</item>
 					<item>
 		<title><![CDATA[logo]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=42</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=42</link>
 		<pubDate>Sun, 02 Mar 2025 13:13:44 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=42</guid>
@@ -529,7 +529,7 @@
 														</item>
 					<item>
 		<title><![CDATA[link]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=43</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=43</link>
 		<pubDate>Sun, 02 Mar 2025 13:13:44 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=43</guid>
@@ -552,45 +552,8 @@
 		<wp:is_sticky>0</wp:is_sticky>
 														</item>
 					<item>
-		<title><![CDATA[aura_bg]]></title>
-		<link>http://myportfolio.loc/myportfolio/aura_bg/</link>
-		<pubDate>Sat, 01 Mar 2025 19:19:01 +0000</pubDate>
-		<dc:creator><![CDATA[gluncha]]></dc:creator>
-		<guid isPermaLink="false">http://myportfolio.loc/wp-content/uploads/2025/03/aura_bg.png</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>13</wp:post_id>
-		<wp:post_date><![CDATA[2025-03-01 19:19:01]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-03-01 19:19:01]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-03-01 19:19:18]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-03-01 19:19:18]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[aura_bg]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>10</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://myportfolio.loc/wp-content/uploads/2025/03/aura_bg.png]]></wp:attachment_url>
-											<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2025/03/aura_bg.png]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:3840;s:6:"height";i:2160;s:4:"file";s:19:"2025/03/aura_bg.png";s:8:"filesize";i:16530626;s:5:"sizes";a:6:{s:6:"medium";a:5:{s:4:"file";s:19:"aura_bg-300x169.png";s:5:"width";i:300;s:6:"height";i:169;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:97147;}s:5:"large";a:5:{s:4:"file";s:20:"aura_bg-1024x576.png";s:5:"width";i:1024;s:6:"height";i:576;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:1103062;}s:9:"thumbnail";a:5:{s:4:"file";s:19:"aura_bg-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:47268;}s:12:"medium_large";a:5:{s:4:"file";s:19:"aura_bg-768x432.png";s:5:"width";i:768;s:6:"height";i:432;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:619426;}s:9:"1536x1536";a:5:{s:4:"file";s:20:"aura_bg-1536x864.png";s:5:"width";i:1536;s:6:"height";i:864;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:2451096;}s:9:"2048x2048";a:5:{s:4:"file";s:21:"aura_bg-2048x1152.png";s:5:"width";i:2048;s:6:"height";i:1152;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:4344871;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
-		<wp:meta_value><![CDATA[aura]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
 		<title><![CDATA[portfolio]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field-group&#038;p=23</link>
+		<link>https://myportfolio.loc/?post_type=acf-field-group&#038;p=23</link>
 		<pubDate>Sun, 02 Mar 2025 13:13:44 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field-group&#038;p=23</guid>
@@ -600,8 +563,8 @@
 		<wp:post_id>23</wp:post_id>
 		<wp:post_date><![CDATA[2025-03-02 13:13:44]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-03-02 13:13:44]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-03-03 17:55:35]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-03-03 17:55:35]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-03-04 17:36:23]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-03-04 17:36:23]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[group_67c45099211d6]]></wp:post_name>
@@ -618,7 +581,7 @@
 							</item>
 					<item>
 		<title><![CDATA[logo_bottom]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=44</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=44</link>
 		<pubDate>Sun, 02 Mar 2025 13:13:44 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=44</guid>
@@ -641,82 +604,8 @@
 		<wp:is_sticky>0</wp:is_sticky>
 														</item>
 					<item>
-		<title><![CDATA[D-icon]]></title>
-		<link>http://myportfolio.loc/myportfolio/d-icon/</link>
-		<pubDate>Sun, 02 Mar 2025 13:33:23 +0000</pubDate>
-		<dc:creator><![CDATA[gluncha]]></dc:creator>
-		<guid isPermaLink="false">http://myportfolio.loc/wp-content/uploads/2025/03/D-icon.png</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>46</wp:post_id>
-		<wp:post_date><![CDATA[2025-03-02 13:33:23]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-03-02 13:33:23]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-03-02 13:33:33]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-03-02 13:33:33]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[d-icon]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>10</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://myportfolio.loc/wp-content/uploads/2025/03/D-icon.png]]></wp:attachment_url>
-											<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2025/03/D-icon.png]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:32;s:6:"height";i:32;s:4:"file";s:18:"2025/03/D-icon.png";s:8:"filesize";i:620;s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
-		<wp:meta_value><![CDATA[favicon]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[my-profile-img]]></title>
-		<link>http://myportfolio.loc/myportfolio/my-profile-img/</link>
-		<pubDate>Sun, 02 Mar 2025 14:22:46 +0000</pubDate>
-		<dc:creator><![CDATA[gluncha]]></dc:creator>
-		<guid isPermaLink="false">http://myportfolio.loc/wp-content/uploads/2025/03/my-profile-img.jpg</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>50</wp:post_id>
-		<wp:post_date><![CDATA[2025-03-02 14:22:46]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-03-02 14:22:46]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-03-02 14:30:48]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-03-02 14:30:48]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[my-profile-img]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>10</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://myportfolio.loc/wp-content/uploads/2025/03/my-profile-img.jpg]]></wp:attachment_url>
-											<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2025/03/my-profile-img.jpg]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:288;s:6:"height";i:288;s:4:"file";s:26:"2025/03/my-profile-img.jpg";s:8:"filesize";i:17115;s:5:"sizes";a:1:{s:9:"thumbnail";a:5:{s:4:"file";s:26:"my-profile-img-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:5017;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
-		<wp:meta_value><![CDATA[profile photo]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
 		<title><![CDATA[image]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=89</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=89</link>
 		<pubDate>Sun, 02 Mar 2025 15:25:35 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=89</guid>
@@ -740,7 +629,7 @@
 														</item>
 					<item>
 		<title><![CDATA[link]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=90</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=90</link>
 		<pubDate>Sun, 02 Mar 2025 15:25:35 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=90</guid>
@@ -764,7 +653,7 @@
 														</item>
 					<item>
 		<title><![CDATA[hero_section]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=116</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=116</link>
 		<pubDate>Mon, 03 Mar 2025 13:41:00 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=116</guid>
@@ -788,7 +677,7 @@
 														</item>
 					<item>
 		<title><![CDATA[hero_image]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=117</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=117</link>
 		<pubDate>Mon, 03 Mar 2025 13:41:00 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=117</guid>
@@ -812,7 +701,7 @@
 														</item>
 					<item>
 		<title><![CDATA[hero_title]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=118</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=118</link>
 		<pubDate>Mon, 03 Mar 2025 13:41:00 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=118</guid>
@@ -822,8 +711,8 @@
 		<wp:post_id>118</wp:post_id>
 		<wp:post_date><![CDATA[2025-03-03 13:41:00]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-03-03 13:41:00]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-03-03 17:55:12]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-03-03 17:55:12]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-03-04 16:30:28]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-03-04 16:30:28]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[field_67c5b09c83f56]]></wp:post_name>
@@ -836,7 +725,7 @@
 														</item>
 					<item>
 		<title><![CDATA[hero_subtitle]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=119</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=119</link>
 		<pubDate>Mon, 03 Mar 2025 13:41:00 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=119</guid>
@@ -860,7 +749,7 @@
 														</item>
 					<item>
 		<title><![CDATA[hero_subtitle_span_1]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=120</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=120</link>
 		<pubDate>Mon, 03 Mar 2025 17:02:15 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=120</guid>
@@ -884,7 +773,7 @@
 														</item>
 					<item>
 		<title><![CDATA[hero_subtitle_span_2]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=121</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=121</link>
 		<pubDate>Mon, 03 Mar 2025 17:02:15 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=121</guid>
@@ -908,7 +797,7 @@
 														</item>
 					<item>
 		<title><![CDATA[hero_subtitle_span_3]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=122</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=122</link>
 		<pubDate>Mon, 03 Mar 2025 17:02:15 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=122</guid>
@@ -932,7 +821,7 @@
 														</item>
 					<item>
 		<title><![CDATA[hero_subtitle_span_4]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=123</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=123</link>
 		<pubDate>Mon, 03 Mar 2025 17:02:15 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=123</guid>
@@ -956,7 +845,7 @@
 														</item>
 					<item>
 		<title><![CDATA[hero_subtitle_span]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=128</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=128</link>
 		<pubDate>Mon, 03 Mar 2025 17:16:45 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=128</guid>
@@ -980,7 +869,7 @@
 														</item>
 					<item>
 		<title><![CDATA[hero_subtitle_span_1]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=129</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=129</link>
 		<pubDate>Mon, 03 Mar 2025 17:16:45 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=129</guid>
@@ -1004,7 +893,7 @@
 														</item>
 					<item>
 		<title><![CDATA[hero_subtitle_span_2]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=130</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=130</link>
 		<pubDate>Mon, 03 Mar 2025 17:16:45 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=130</guid>
@@ -1028,7 +917,7 @@
 														</item>
 					<item>
 		<title><![CDATA[hero_subtitle_span_3]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=131</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=131</link>
 		<pubDate>Mon, 03 Mar 2025 17:16:45 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=131</guid>
@@ -1052,7 +941,7 @@
 														</item>
 					<item>
 		<title><![CDATA[hero_subtitle_span_4]]></title>
-		<link>http://myportfolio.loc/?post_type=acf-field&#038;p=132</link>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=132</link>
 		<pubDate>Mon, 03 Mar 2025 17:16:45 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=acf-field&#038;p=132</guid>
@@ -1075,8 +964,80 @@
 		<wp:is_sticky>0</wp:is_sticky>
 														</item>
 					<item>
+		<title><![CDATA[footer]]></title>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=200</link>
+		<pubDate>Tue, 04 Mar 2025 16:42:19 +0000</pubDate>
+		<dc:creator><![CDATA[gluncha]]></dc:creator>
+		<guid isPermaLink="false">https://myportfolio.loc/?post_type=acf-field&#038;p=200</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:8:{s:10:"aria-label";s:0:"";s:4:"type";s:5:"group";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:6:"layout";s:5:"block";s:10:"sub_fields";a:0:{}}]]></content:encoded>
+		<excerpt:encoded><![CDATA[footer]]></excerpt:encoded>
+		<wp:post_id>200</wp:post_id>
+		<wp:post_date><![CDATA[2025-03-04 16:42:19]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-03-04 16:42:19]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-03-04 16:50:09]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-03-04 16:50:09]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_67c72d2bbd45d]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>23</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[footer_quotes]]></title>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=206</link>
+		<pubDate>Tue, 04 Mar 2025 16:50:09 +0000</pubDate>
+		<dc:creator><![CDATA[gluncha]]></dc:creator>
+		<guid isPermaLink="false">https://myportfolio.loc/?post_type=acf-field&#038;p=206</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:12:{s:10:"aria-label";s:0:"";s:4:"type";s:7:"wysiwyg";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:17:"allow_in_bindings";i:1;s:4:"tabs";s:3:"all";s:7:"toolbar";s:4:"full";s:12:"media_upload";i:1;s:5:"delay";i:0;}]]></content:encoded>
+		<excerpt:encoded><![CDATA[footer_quotes]]></excerpt:encoded>
+		<wp:post_id>206</wp:post_id>
+		<wp:post_date><![CDATA[2025-03-04 16:50:09]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-03-04 16:50:09]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-03-04 17:36:23]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-03-04 17:36:23]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_67c72f26c2913]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>200</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[footer_logo]]></title>
+		<link>https://myportfolio.loc/?post_type=acf-field&#038;p=207</link>
+		<pubDate>Tue, 04 Mar 2025 16:50:09 +0000</pubDate>
+		<dc:creator><![CDATA[gluncha]]></dc:creator>
+		<guid isPermaLink="false">https://myportfolio.loc/?post_type=acf-field&#038;p=207</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:17:{s:10:"aria-label";s:0:"";s:4:"type";s:5:"image";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"return_format";s:3:"url";s:7:"library";s:3:"all";s:9:"min_width";s:0:"";s:10:"min_height";s:0:"";s:8:"min_size";s:0:"";s:9:"max_width";s:0:"";s:10:"max_height";s:0:"";s:8:"max_size";s:0:"";s:10:"mime_types";s:0:"";s:17:"allow_in_bindings";i:0;s:12:"preview_size";s:6:"medium";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[footer_logo]]></excerpt:encoded>
+		<wp:post_id>207</wp:post_id>
+		<wp:post_date><![CDATA[2025-03-04 16:50:09]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-03-04 16:50:09]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-03-04 17:09:02]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-03-04 17:09:02]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_67c72f32c2914]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>200</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
 		<title><![CDATA[Home]]></title>
-		<link>http://myportfolio.loc/?p=5</link>
+		<link>https://myportfolio.loc/?p=5</link>
 		<pubDate></pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?p=5</guid>
@@ -1136,7 +1097,7 @@
 							</item>
 					<item>
 		<title><![CDATA[]]></title>
-		<link>http://myportfolio.loc/?p=6</link>
+		<link>https://myportfolio.loc/?p=6</link>
 		<pubDate></pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?p=6</guid>
@@ -1195,8 +1156,45 @@
 		</wp:postmeta>
 							</item>
 					<item>
+		<title><![CDATA[aura_bg]]></title>
+		<link>https://myportfolio.loc/myportfolio/aura_bg/</link>
+		<pubDate>Sat, 01 Mar 2025 19:19:01 +0000</pubDate>
+		<dc:creator><![CDATA[gluncha]]></dc:creator>
+		<guid isPermaLink="false">http://myportfolio.loc/wp-content/uploads/2025/03/aura_bg.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>13</wp:post_id>
+		<wp:post_date><![CDATA[2025-03-01 19:19:01]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-03-01 19:19:01]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-03-01 19:19:18]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-03-01 19:19:18]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[aura_bg]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>10</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://myportfolio.loc/wp-content/uploads/2025/03/aura_bg.png]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025/03/aura_bg.png]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:3840;s:6:"height";i:2160;s:4:"file";s:19:"2025/03/aura_bg.png";s:8:"filesize";i:16530626;s:5:"sizes";a:6:{s:6:"medium";a:5:{s:4:"file";s:19:"aura_bg-300x169.png";s:5:"width";i:300;s:6:"height";i:169;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:97147;}s:5:"large";a:5:{s:4:"file";s:20:"aura_bg-1024x576.png";s:5:"width";i:1024;s:6:"height";i:576;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:1103062;}s:9:"thumbnail";a:5:{s:4:"file";s:19:"aura_bg-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:47268;}s:12:"medium_large";a:5:{s:4:"file";s:19:"aura_bg-768x432.png";s:5:"width";i:768;s:6:"height";i:432;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:619426;}s:9:"1536x1536";a:5:{s:4:"file";s:20:"aura_bg-1536x864.png";s:5:"width";i:1536;s:6:"height";i:864;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:2451096;}s:9:"2048x2048";a:5:{s:4:"file";s:21:"aura_bg-2048x1152.png";s:5:"width";i:2048;s:6:"height";i:1152;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:4344871;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[aura]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
 		<title><![CDATA[Home]]></title>
-		<link>http://myportfolio.loc/home/</link>
+		<link>https://myportfolio.loc/home/</link>
 		<pubDate>Sun, 02 Mar 2025 08:18:05 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?p=14</guid>
@@ -1253,7 +1251,7 @@
 							</item>
 					<item>
 		<title><![CDATA[About]]></title>
-		<link>http://myportfolio.loc/about/</link>
+		<link>https://myportfolio.loc/about/</link>
 		<pubDate>Sun, 02 Mar 2025 08:18:05 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?p=15</guid>
@@ -1309,236 +1307,82 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[Resume]]></title>
-		<link>http://myportfolio.loc/resume/</link>
-		<pubDate>Sun, 02 Mar 2025 08:18:05 +0000</pubDate>
+		<title><![CDATA[D-icon]]></title>
+		<link>https://myportfolio.loc/myportfolio/d-icon/</link>
+		<pubDate>Sun, 02 Mar 2025 13:33:23 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
-		<guid isPermaLink="false">http://myportfolio.loc/?p=16</guid>
+		<guid isPermaLink="false">http://myportfolio.loc/wp-content/uploads/2025/03/D-icon.png</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>16</wp:post_id>
-		<wp:post_date><![CDATA[2025-03-02 19:03:59]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-03-02 08:18:05]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-03-02 19:03:59]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-03-02 19:03:59]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:post_id>46</wp:post_id>
+		<wp:post_date><![CDATA[2025-03-02 13:33:23]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-03-02 13:33:23]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-03-02 13:33:33]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-03-02 13:33:33]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[resume]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>3</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_name><![CDATA[d-icon]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>10</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="header-menu"><![CDATA[Header menu]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+						<wp:attachment_url><![CDATA[https://myportfolio.loc/wp-content/uploads/2025/03/D-icon.png]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025/03/D-icon.png]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:32;s:6:"height";i:32;s:4:"file";s:18:"2025/03/D-icon.png";s:8:"filesize";i:620;s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[16]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[#]]></wp:meta_value>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[favicon]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[Portfolio]]></title>
-		<link>http://myportfolio.loc/portfolio/</link>
-		<pubDate>Sun, 02 Mar 2025 08:18:05 +0000</pubDate>
+		<title><![CDATA[my-profile-img]]></title>
+		<link>https://myportfolio.loc/myportfolio/my-profile-img/</link>
+		<pubDate>Sun, 02 Mar 2025 14:22:46 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
-		<guid isPermaLink="false">http://myportfolio.loc/?p=17</guid>
+		<guid isPermaLink="false">http://myportfolio.loc/wp-content/uploads/2025/03/my-profile-img.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>17</wp:post_id>
-		<wp:post_date><![CDATA[2025-03-02 19:03:59]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-03-02 08:18:05]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-03-02 19:03:59]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-03-02 19:03:59]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:post_id>50</wp:post_id>
+		<wp:post_date><![CDATA[2025-03-02 14:22:46]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-03-02 14:22:46]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-03-02 14:30:48]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-03-02 14:30:48]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[portfolio]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>4</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_name><![CDATA[my-profile-img]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>10</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="header-menu"><![CDATA[Header menu]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+						<wp:attachment_url><![CDATA[https://myportfolio.loc/wp-content/uploads/2025/03/my-profile-img.jpg]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025/03/my-profile-img.jpg]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:288;s:6:"height";i:288;s:4:"file";s:26:"2025/03/my-profile-img.jpg";s:8:"filesize";i:17115;s:5:"sizes";a:1:{s:9:"thumbnail";a:5:{s:4:"file";s:26:"my-profile-img-150x150.jpg";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:10:"image/jpeg";s:8:"filesize";i:5017;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[17]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[#]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Services]]></title>
-		<link>http://myportfolio.loc/services/</link>
-		<pubDate>Sun, 02 Mar 2025 08:18:05 +0000</pubDate>
-		<dc:creator><![CDATA[gluncha]]></dc:creator>
-		<guid isPermaLink="false">http://myportfolio.loc/?p=18</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>18</wp:post_id>
-		<wp:post_date><![CDATA[2025-03-02 19:03:59]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-03-02 08:18:05]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-03-02 19:03:59]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-03-02 19:03:59]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[services]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>5</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="header-menu"><![CDATA[Header menu]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[18]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[#]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Contact]]></title>
-		<link>http://myportfolio.loc/contact/</link>
-		<pubDate>Sun, 02 Mar 2025 08:18:05 +0000</pubDate>
-		<dc:creator><![CDATA[gluncha]]></dc:creator>
-		<guid isPermaLink="false">http://myportfolio.loc/?p=19</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>19</wp:post_id>
-		<wp:post_date><![CDATA[2025-03-02 19:03:59]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-03-02 08:18:05]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-03-02 19:03:59]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-03-02 19:03:59]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[contact]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>6</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="header-menu"><![CDATA[Header menu]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[19]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[#]]></wp:meta_value>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[profile photo]]></wp:meta_value>
 		</wp:postmeta>
 							</item>
 					<item>
 		<title><![CDATA[facebook]]></title>
-		<link>http://myportfolio.loc/myportfolio/facebook/</link>
+		<link>https://myportfolio.loc/myportfolio/facebook/</link>
 		<pubDate>Sun, 02 Mar 2025 14:37:01 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/wp-content/uploads/2025/03/facebook.png</guid>
@@ -1559,7 +1403,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://myportfolio.loc/wp-content/uploads/2025/03/facebook.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://myportfolio.loc/wp-content/uploads/2025/03/facebook.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2025/03/facebook.png]]></wp:meta_value>
@@ -1575,7 +1419,7 @@
 							</item>
 					<item>
 		<title><![CDATA[github]]></title>
-		<link>http://myportfolio.loc/myportfolio/github/</link>
+		<link>https://myportfolio.loc/myportfolio/github/</link>
 		<pubDate>Sun, 02 Mar 2025 14:37:01 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/wp-content/uploads/2025/03/github.png</guid>
@@ -1596,7 +1440,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://myportfolio.loc/wp-content/uploads/2025/03/github.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://myportfolio.loc/wp-content/uploads/2025/03/github.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2025/03/github.png]]></wp:meta_value>
@@ -1612,7 +1456,7 @@
 							</item>
 					<item>
 		<title><![CDATA[instagram]]></title>
-		<link>http://myportfolio.loc/myportfolio/instagram/</link>
+		<link>https://myportfolio.loc/myportfolio/instagram/</link>
 		<pubDate>Sun, 02 Mar 2025 14:37:01 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/wp-content/uploads/2025/03/instagram.png</guid>
@@ -1633,7 +1477,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://myportfolio.loc/wp-content/uploads/2025/03/instagram.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://myportfolio.loc/wp-content/uploads/2025/03/instagram.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2025/03/instagram.png]]></wp:meta_value>
@@ -1649,7 +1493,7 @@
 							</item>
 					<item>
 		<title><![CDATA[linkedin]]></title>
-		<link>http://myportfolio.loc/myportfolio/linkedin/</link>
+		<link>https://myportfolio.loc/myportfolio/linkedin/</link>
 		<pubDate>Sun, 02 Mar 2025 14:37:01 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/wp-content/uploads/2025/03/linkedin.png</guid>
@@ -1670,7 +1514,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://myportfolio.loc/wp-content/uploads/2025/03/linkedin.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://myportfolio.loc/wp-content/uploads/2025/03/linkedin.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2025/03/linkedin.png]]></wp:meta_value>
@@ -1686,7 +1530,7 @@
 							</item>
 					<item>
 		<title><![CDATA[twitter]]></title>
-		<link>http://myportfolio.loc/myportfolio/twitter/</link>
+		<link>https://myportfolio.loc/myportfolio/twitter/</link>
 		<pubDate>Sun, 02 Mar 2025 14:37:01 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/wp-content/uploads/2025/03/twitter.png</guid>
@@ -1707,7 +1551,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://myportfolio.loc/wp-content/uploads/2025/03/twitter.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://myportfolio.loc/wp-content/uploads/2025/03/twitter.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2025/03/twitter.png]]></wp:meta_value>
@@ -1722,65 +1566,8 @@
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[Contact Me]]></title>
-		<link>http://myportfolio.loc/contact-me/</link>
-		<pubDate>Sun, 02 Mar 2025 18:26:34 +0000</pubDate>
-		<dc:creator><![CDATA[gluncha]]></dc:creator>
-		<guid isPermaLink="false">http://myportfolio.loc/?p=109</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>109</wp:post_id>
-		<wp:post_date><![CDATA[2025-03-02 19:25:12]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-03-02 18:26:34]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-03-02 19:25:12]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-03-02 19:25:12]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[contact-me]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>1</wp:menu_order>
-		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="footer-more"><![CDATA[footer more]]></category>
-						<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
-		<wp:meta_value><![CDATA[0]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[109]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
-		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
-		<wp:meta_value><![CDATA[]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
-		<wp:meta_value><![CDATA[#]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
 		<title><![CDATA[screenshot]]></title>
-		<link>http://myportfolio.loc/myportfolio/screenshot/</link>
+		<link>https://myportfolio.loc/myportfolio/screenshot/</link>
 		<pubDate>Mon, 03 Mar 2025 17:07:36 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/wp-content/uploads/2025/03/screenshot.png</guid>
@@ -1801,7 +1588,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://myportfolio.loc/wp-content/uploads/2025/03/screenshot.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://myportfolio.loc/wp-content/uploads/2025/03/screenshot.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2025/03/screenshot.png]]></wp:meta_value>
@@ -1817,7 +1604,7 @@
 							</item>
 					<item>
 		<title><![CDATA[hero-photo]]></title>
-		<link>http://myportfolio.loc/myportfolio/hero-photo/</link>
+		<link>https://myportfolio.loc/myportfolio/hero-photo/</link>
 		<pubDate>Mon, 03 Mar 2025 17:39:15 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/wp-content/uploads/2025/03/hero-photo.jpg</guid>
@@ -1838,7 +1625,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://myportfolio.loc/wp-content/uploads/2025/03/hero-photo.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://myportfolio.loc/wp-content/uploads/2025/03/hero-photo.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2025/03/hero-photo.jpg]]></wp:meta_value>
@@ -1854,7 +1641,7 @@
 							</item>
 					<item>
 		<title><![CDATA[hero-image-2]]></title>
-		<link>http://myportfolio.loc/myportfolio/hero-image-2/</link>
+		<link>https://myportfolio.loc/myportfolio/hero-image-2/</link>
 		<pubDate>Mon, 03 Mar 2025 17:46:24 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/wp-content/uploads/2025/03/hero-image-2.jpg</guid>
@@ -1875,7 +1662,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://myportfolio.loc/wp-content/uploads/2025/03/hero-image-2.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://myportfolio.loc/wp-content/uploads/2025/03/hero-image-2.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2025/03/hero-image-2.jpg]]></wp:meta_value>
@@ -1891,7 +1678,7 @@
 							</item>
 					<item>
 		<title><![CDATA[hero-photo-1]]></title>
-		<link>http://myportfolio.loc/myportfolio/hero-photo-1/</link>
+		<link>https://myportfolio.loc/myportfolio/hero-photo-1/</link>
 		<pubDate>Mon, 03 Mar 2025 17:46:24 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/wp-content/uploads/2025/03/hero-photo-1.jpg</guid>
@@ -1912,7 +1699,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://myportfolio.loc/wp-content/uploads/2025/03/hero-photo-1.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://myportfolio.loc/wp-content/uploads/2025/03/hero-photo-1.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2025/03/hero-photo-1.jpg]]></wp:meta_value>
@@ -1928,7 +1715,7 @@
 							</item>
 					<item>
 		<title><![CDATA[hero-photo-3]]></title>
-		<link>http://myportfolio.loc/myportfolio/hero-photo-3/</link>
+		<link>https://myportfolio.loc/myportfolio/hero-photo-3/</link>
 		<pubDate>Mon, 03 Mar 2025 17:48:35 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/wp-content/uploads/2025/03/hero-photo-3.png</guid>
@@ -1949,7 +1736,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://myportfolio.loc/wp-content/uploads/2025/03/hero-photo-3.png]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://myportfolio.loc/wp-content/uploads/2025/03/hero-photo-3.png]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2025/03/hero-photo-3.png]]></wp:meta_value>
@@ -1965,7 +1752,7 @@
 							</item>
 					<item>
 		<title><![CDATA[services]]></title>
-		<link>http://myportfolio.loc/myportfolio/services-2/</link>
+		<link>https://myportfolio.loc/myportfolio/services-2/</link>
 		<pubDate>Mon, 03 Mar 2025 18:16:51 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/wp-content/uploads/2025/03/services.jpg</guid>
@@ -1986,7 +1773,7 @@
 		<wp:post_type><![CDATA[attachment]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://myportfolio.loc/wp-content/uploads/2025/03/services.jpg]]></wp:attachment_url>
+						<wp:attachment_url><![CDATA[https://myportfolio.loc/wp-content/uploads/2025/03/services.jpg]]></wp:attachment_url>
 											<wp:postmeta>
 		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
 		<wp:meta_value><![CDATA[2025/03/services.jpg]]></wp:meta_value>
@@ -1997,8 +1784,82 @@
 		</wp:postmeta>
 							</item>
 					<item>
+		<title><![CDATA[favicon-2]]></title>
+		<link>https://myportfolio.loc/myportfolio/favicon-2/</link>
+		<pubDate>Tue, 04 Mar 2025 16:43:17 +0000</pubDate>
+		<dc:creator><![CDATA[gluncha]]></dc:creator>
+		<guid isPermaLink="false">https://myportfolio.loc/wp-content/uploads/2025/03/favicon-2.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>202</wp:post_id>
+		<wp:post_date><![CDATA[2025-03-04 16:43:17]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-03-04 16:43:17]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-03-04 16:43:25]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-03-04 16:43:25]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[favicon-2]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>10</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://myportfolio.loc/wp-content/uploads/2025/03/favicon-2.png]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025/03/favicon-2.png]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:512;s:6:"height";i:512;s:4:"file";s:21:"2025/03/favicon-2.png";s:8:"filesize";i:27215;s:5:"sizes";a:2:{s:6:"medium";a:5:{s:4:"file";s:21:"favicon-2-300x300.png";s:5:"width";i:300;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:18156;}s:9:"thumbnail";a:5:{s:4:"file";s:21:"favicon-2-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:7014;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[footer logo]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[D-icon-black]]></title>
+		<link>https://myportfolio.loc/myportfolio/d-icon-black/</link>
+		<pubDate>Tue, 04 Mar 2025 17:12:04 +0000</pubDate>
+		<dc:creator><![CDATA[gluncha]]></dc:creator>
+		<guid isPermaLink="false">https://myportfolio.loc/wp-content/uploads/2025/03/D-icon-black.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>217</wp:post_id>
+		<wp:post_date><![CDATA[2025-03-04 17:12:04]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-03-04 17:12:04]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-03-04 17:12:11]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-03-04 17:12:11]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[d-icon-black]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>10</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[https://myportfolio.loc/wp-content/uploads/2025/03/D-icon-black.png]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2025/03/D-icon-black.png]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:32;s:6:"height";i:32;s:4:"file";s:24:"2025/03/D-icon-black.png";s:8:"filesize";i:591;s:5:"sizes";a:0:{}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_image_alt]]></wp:meta_key>
+		<wp:meta_value><![CDATA[footer logo]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
 		<title><![CDATA[Hello world!]]></title>
-		<link>http://myportfolio.loc/hello-world/</link>
+		<link>https://myportfolio.loc/hello-world/</link>
 		<pubDate>Sat, 01 Mar 2025 15:37:01 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?p=1</guid>
@@ -2041,7 +1902,7 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 					</item>
 					<item>
 		<title><![CDATA[Sample Page]]></title>
-		<link>http://myportfolio.loc/?page_id=2</link>
+		<link>https://myportfolio.loc/?page_id=2</link>
 		<pubDate>Sat, 01 Mar 2025 15:37:01 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?page_id=2</guid>
@@ -2099,7 +1960,7 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 							</item>
 					<item>
 		<title><![CDATA[Privacy Policy]]></title>
-		<link>http://myportfolio.loc/?page_id=3</link>
+		<link>https://myportfolio.loc/?page_id=3</link>
 		<pubDate>Sat, 01 Mar 2025 15:37:01 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?page_id=3</guid>
@@ -2211,7 +2072,7 @@ Commenter avatars come from <a href="https://gravatar.com/">Gravatar</a>.]]></wp
 							</item>
 					<item>
 		<title><![CDATA[Contact form 1]]></title>
-		<link>http://myportfolio.loc/?post_type=wpcf7_contact_form&#038;p=7</link>
+		<link>https://myportfolio.loc/?post_type=wpcf7_contact_form&#038;p=7</link>
 		<pubDate>Sat, 01 Mar 2025 19:06:48 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?post_type=wpcf7_contact_form&#038;p=7</guid>
@@ -2338,7 +2199,7 @@ This email is a receipt for your contact form submission on our website ([_site_
 							</item>
 					<item>
 		<title><![CDATA[MyPortfolio]]></title>
-		<link>http://myportfolio.loc/</link>
+		<link>https://myportfolio.loc/</link>
 		<pubDate>Sat, 01 Mar 2025 19:07:20 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
 		<guid isPermaLink="false">http://myportfolio.loc/?page_id=10</guid>
@@ -2348,8 +2209,8 @@ This email is a receipt for your contact form submission on our website ([_site_
 		<wp:post_id>10</wp:post_id>
 		<wp:post_date><![CDATA[2025-03-01 19:07:20]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2025-03-01 19:07:20]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-03-03 18:23:19]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-03-03 18:23:19]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2025-03-04 17:49:11]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-03-04 17:49:11]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[myportfolio]]></wp:post_name>
@@ -2655,31 +2516,72 @@ This email is a receipt for your contact form submission on our website ([_site_
 		<wp:meta_key><![CDATA[_hero_section_hero_subtitle_span]]></wp:meta_key>
 		<wp:meta_value><![CDATA[field_67c5e3e5a6460]]></wp:meta_value>
 		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[footer_quotes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_footer_quotes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_67c72d2bbd45d]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[footer_logo]]></wp:meta_key>
+		<wp:meta_value><![CDATA[202]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_footer_logo]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_67c72d3dbd45e]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[footer_footer_quotes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[<h3>„When I wrote this code, only God and I understood what I did.</h3>
+<h3>Now only God knows. “</h3>]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_footer_footer_quotes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_67c72f26c2913]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[footer_footer_logo]]></wp:meta_key>
+		<wp:meta_value><![CDATA[217]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_footer_footer_logo]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_67c72f32c2914]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[footer]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_footer]]></wp:meta_key>
+		<wp:meta_value><![CDATA[field_67c72d2bbd45d]]></wp:meta_value>
+		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[About Me]]></title>
-		<link>http://myportfolio.loc/about-me/</link>
-		<pubDate>Sun, 02 Mar 2025 18:26:34 +0000</pubDate>
+		<title><![CDATA[Resume]]></title>
+		<link>https://myportfolio.loc/resume/</link>
+		<pubDate>Sun, 02 Mar 2025 08:18:05 +0000</pubDate>
 		<dc:creator><![CDATA[gluncha]]></dc:creator>
-		<guid isPermaLink="false">http://myportfolio.loc/?p=110</guid>
+		<guid isPermaLink="false">http://myportfolio.loc/?p=16</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>110</wp:post_id>
-		<wp:post_date><![CDATA[2025-03-02 19:25:12]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2025-03-02 18:26:34]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2025-03-02 19:25:12]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2025-03-02 19:25:12]]></wp:post_modified_gmt>
+		<wp:post_id>16</wp:post_id>
+		<wp:post_date><![CDATA[2025-03-02 19:03:59]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-03-02 08:18:05]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-03-02 19:03:59]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-03-02 19:03:59]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[about-me]]></wp:post_name>
+		<wp:post_name><![CDATA[resume]]></wp:post_name>
 		<wp:status><![CDATA[publish]]></wp:status>
 		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>2</wp:menu_order>
+		<wp:menu_order>3</wp:menu_order>
 		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-										<category domain="nav_menu" nicename="footer-more"><![CDATA[footer more]]></category>
+										<category domain="nav_menu" nicename="header-menu"><![CDATA[Header menu]]></category>
 						<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
 		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
@@ -2690,7 +2592,178 @@ This email is a receipt for your contact form submission on our website ([_site_
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
-		<wp:meta_value><![CDATA[110]]></wp:meta_value>
+		<wp:meta_value><![CDATA[16]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[#]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Portfolio]]></title>
+		<link>https://myportfolio.loc/portfolio/</link>
+		<pubDate>Sun, 02 Mar 2025 08:18:05 +0000</pubDate>
+		<dc:creator><![CDATA[gluncha]]></dc:creator>
+		<guid isPermaLink="false">http://myportfolio.loc/?p=17</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>17</wp:post_id>
+		<wp:post_date><![CDATA[2025-03-02 19:03:59]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-03-02 08:18:05]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-03-02 19:03:59]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-03-02 19:03:59]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[portfolio]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="header-menu"><![CDATA[Header menu]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[17]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[#]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Services]]></title>
+		<link>https://myportfolio.loc/services/</link>
+		<pubDate>Sun, 02 Mar 2025 08:18:05 +0000</pubDate>
+		<dc:creator><![CDATA[gluncha]]></dc:creator>
+		<guid isPermaLink="false">http://myportfolio.loc/?p=18</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>18</wp:post_id>
+		<wp:post_date><![CDATA[2025-03-02 19:03:59]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-03-02 08:18:05]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-03-02 19:03:59]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-03-02 19:03:59]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[services]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="header-menu"><![CDATA[Header menu]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[18]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_target]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_classes]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:1:{i:0;s:0:"";}]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_xfn]]></wp:meta_key>
+		<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_url]]></wp:meta_key>
+		<wp:meta_value><![CDATA[#]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Contact]]></title>
+		<link>https://myportfolio.loc/contact/</link>
+		<pubDate>Sun, 02 Mar 2025 08:18:05 +0000</pubDate>
+		<dc:creator><![CDATA[gluncha]]></dc:creator>
+		<guid isPermaLink="false">http://myportfolio.loc/?p=19</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>19</wp:post_id>
+		<wp:post_date><![CDATA[2025-03-02 19:03:59]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2025-03-02 08:18:05]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2025-03-02 19:03:59]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2025-03-02 19:03:59]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[contact]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>6</wp:menu_order>
+		<wp:post_type><![CDATA[nav_menu_item]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+										<category domain="nav_menu" nicename="header-menu"><![CDATA[Header menu]]></category>
+						<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_type]]></wp:meta_key>
+		<wp:meta_value><![CDATA[custom]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_menu_item_parent]]></wp:meta_key>
+		<wp:meta_value><![CDATA[0]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_menu_item_object_id]]></wp:meta_key>
+		<wp:meta_value><![CDATA[19]]></wp:meta_value>
 		</wp:postmeta>
 							<wp:postmeta>
 		<wp:meta_key><![CDATA[_menu_item_object]]></wp:meta_key>

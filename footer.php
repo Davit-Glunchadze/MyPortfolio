@@ -1,14 +1,16 @@
 <?php
-/**
- * The template for displaying the footer
- *
- * Contains the closing of the #content div and all content after.
- *
- * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
- *
- * @package MyPortfolio
- */
 
+$header = get_field('header');
+$sitename = $header['sitename'];
+$social_links = $header['social_links'];
+
+$footer = get_field('footer');
+$footer_quotes = $footer['footer_quotes'];
+$footer_logo = $footer['footer_logo'];
+
+// echo '<pre>';
+// print_r($footer_logo);
+// echo '</pre>';
 ?>
 
 	<footer id="footer" class="footer position-relative light-background">
@@ -25,11 +27,24 @@
 			?>
 		</nav>
 
+		<!-- quotes name -->
+		<div class="footer-quotes">
+			<h3><?php echo $footer_quotes ?></h3>
+		</div>
+
+		<!-- footer logo -->
+		<div class="footer-logo">
+    		<a href="<?php echo esc_url(home_url('/')); ?>">
+    		    <img src="<?php echo esc_url($footer_logo); ?>" alt="footer logo">
+    		</a>
+		</div>
+
+
 		<div class="container">
 		  <div class="copyright text-center ">
 			<p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p>
 		  </div>
-		  <div class="credits">
+		<div class="credits">
 			Designed by <a href="https://getbootstrap.com/" target="_blanck">Bootstrap,</a> main theme by <a href="https://underscores.me/" target="_blanck">underscore</a>
 		  </div>
 		</div>
