@@ -52,12 +52,12 @@
   transition: 0.3s ease-in-out;
 }
 
-.header .logo h1 {
+/* .header .logo h1 {
   font-size: 24px;
   margin: 0;
   font-weight: 700;
   color: var(--heading-color);
-}
+} */
 
 .sitename p {
   margin: 20px;
@@ -141,9 +141,6 @@
 /*--------------------------------------------------------------
   # Navigation Menu
   --------------------------------------------------------------*/
-/* .mobile-nav-toggle {
-  display: none;
-} */
 
 .menu-header-menu-container {
   padding: 0 0 20px;
@@ -192,12 +189,11 @@
 --------------------------------------------------------------*/
 .footer {
   color: var(--default-color);
-  background-color: var(--background-color);
+  background-color: color-mix(in srgb, var(--default-color), transparent 80%);
   font-size: 14px;
-  padding: 40px 0;
+  padding: 20px 0 20px;
   position: relative;
   border-top: 1px solid
-    color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
 .footer .container {
@@ -205,7 +201,38 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+}
+
+.footer-quotes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.footer-quotes h3 {
+  font-size: 23px;
+  text-align: center;
+  line-height: 40px;
+  font-style: italic ;
+  color: var(--default-color);
+}
+
+.footer .footer-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.footer-logo a img {
+  max-height: 50px;
+  margin: 10px 0;
+}
+
+.footer-logo a img:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
 }
 
 .footer .copyright p {

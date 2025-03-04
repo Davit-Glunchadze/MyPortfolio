@@ -69,6 +69,7 @@ $logo_bottom = $header['logo_bottom'];
 				<?php endif; ?>
 			<?php endforeach; ?>
     	</div>
+		
 		<!-- navigation menu -->
 		<nav id="site-navigation" class="main-navigation">
 			<?php
