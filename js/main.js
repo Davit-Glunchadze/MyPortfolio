@@ -125,19 +125,22 @@
   /**
    * Animate the skills items on reveal
    */
-  let skillsAnimation = document.querySelectorAll('.skills-animation');
-  skillsAnimation.forEach((item) => {
-    new Waypoint({
-      element: item,
-      offset: '80%',
-      handler: function(direction) {
-        let progress = item.querySelectorAll('.progress .progress-bar');
-        progress.forEach(el => {
-          el.style.width = el.getAttribute('aria-valuenow') + '%';
-        });
-      }
+  document.addEventListener('DOMContentLoaded', function() {
+    let skillsAnimation = document.querySelectorAll('.skills-animation');
+    skillsAnimation.forEach((item) => {
+      new Waypoint({
+        element: item,
+        offset: '80%',
+        handler: function(direction) {
+          let progress = item.querySelectorAll('.progress .progress-bar');
+          progress.forEach(el => {
+            el.style.width = el.getAttribute('aria-valuenow') + '%';
+          });
+        }
+      });
     });
   });
+  
 
   /**
    * Initiate glightbox
@@ -255,3 +258,16 @@ if (typeof GLightbox !== 'undefined') {
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+/**
+ * Function to download the resume as a PDF file
+ */
+document.getElementById("downloadBtn").addEventListener("click", function() {
+  const resumeElement = document.getElementById("resume"); 
+
+  html2pdf()
+      .from(resumeElement) 
+      .save("My-resume.pdf"); 
+});
+
+

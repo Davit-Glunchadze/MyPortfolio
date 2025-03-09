@@ -257,31 +257,33 @@ add_action('wp_enqueue_scripts', 'enqueue_font_awesome');
  */
 add_filter('show_admin_bar', '__return_false');
 
-
-
+/**
+ *  head links
+ */
 function my_theme_enqueue_styles() {
     // Google Fonts Preconnect
-    wp_enqueue_style('google-fonts-preconnect', 'https://fonts.googleapis.com', array(), null);
-    wp_enqueue_style('google-fonts-preconnect2', 'https://fonts.gstatic.com', array(), null);
-    
+    echo '<link rel="preconnect" href="https://fonts.googleapis.com">';
+    echo '<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>';
+
     // Google Fonts
     wp_enqueue_style('google-fonts', 'https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap', array(), null);
 
     // IcoFont
     wp_enqueue_style('icofont', 'https://cdnjs.cloudflare.com/ajax/libs/icofont/1.0.1/css/icofont.min.css', array(), null);
 
-	//Add Vendor CSS Files to the theme
-	wp_enqueue_style('bootstrap-grid', get_template_directory_uri() . '/vendor/bootstrap/css/bootstrap-grid.min.css');
+    // Vendor CSS Files
+    wp_enqueue_style('bootstrap-grid', get_template_directory_uri() . '/vendor/bootstrap/css/bootstrap-grid.min.css');
     wp_enqueue_style('bootstrap-icons', get_template_directory_uri() . '/vendor/bootstrap-icons/bootstrap-icons.css');
-    wp_enqueue_style('aos', get_template_directory_uri() . '/vendor/aos/aos.css');
     wp_enqueue_style('glightbox', get_template_directory_uri() . '/vendor/glightbox/css/glightbox.min.css');
     wp_enqueue_style('swiper', get_template_directory_uri() . '/vendor/swiper/swiper-bundle.min.css');
+    
+    // AOS CSS from CDN
+    echo '<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">';
 }
-add_action('wp_enqueue_scripts', 'my_theme_enqueue_styles');
-
+add_action('wp_head', 'my_theme_enqueue_styles');
 
 /**
- * Add Enqueue custom scripts
+ * footer scripts
  */
 function enqueue_custom_scripts() {
     // Main JS File
@@ -292,9 +294,6 @@ function enqueue_custom_scripts() {
 
     // PHP Email Form Validation
     wp_enqueue_script('php-email-form', get_template_directory_uri() . '/vendor/php-email-form/validate.js', array(), null, true);
-
-    // AOS (Animate on Scroll)
-    wp_enqueue_script('aos', get_template_directory_uri() . '/vendor/aos/aos.js', array(), null, true);
 
     // Typed.js
     wp_enqueue_script('typed', get_template_directory_uri() . '/vendor/typed.js/typed.umd.js', array(), null, true);
@@ -316,8 +315,17 @@ function enqueue_custom_scripts() {
 
     // Swiper
     wp_enqueue_script('swiper', get_template_directory_uri() . '/vendor/swiper/swiper-bundle.min.js', array(), null, true);
+
+    // AOS JS from CDN
+    wp_enqueue_script('aos', 'https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js', array(), null, true);
+
+    // GLightbox JS from CDN
+    wp_enqueue_script('glightbox-cdn', 'https://cdn.jsdelivr.net/npm/glightbox@3.0.5/dist/glightbox.min.js', array(), null, true);
+
+    // jsPDF JS from CDN
+    wp_enqueue_script('jspdf-cdn', 'https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js', array(), null, true);
+
+    // html2pdf JS from CDN
+    wp_enqueue_script('html2pdf-cdn', 'https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js', array(), null, true);
 }
-add_action('wp_enqueue_scripts', 'enqueue_custom_scripts');
-
-
-
+add_action('wp_footer', 'enqueue_custom_scripts');
