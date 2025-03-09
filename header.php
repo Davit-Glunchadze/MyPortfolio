@@ -49,7 +49,7 @@ $logo_bottom = $header['logo_bottom'];
     		    <img src="<?php echo esc_url($profile_image['url']); ?>" 
     		         alt="<?php echo esc_attr($profile_image['alt'] ?: 'profile-photo'); ?>">
     		<?php else: ?>
-    		    <img src="<?php echo get_template_directory_uri() . "/assets/img/my-profile-img.jpg"; ?>" 
+    		    <img src="<?php echo get_template_directory_uri() . "/assets/img/alt-profile-img.jpg"; ?>" 
     		         alt="profile-photo">
     		<?php endif; ?>
 		</div>
