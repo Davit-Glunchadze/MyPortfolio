@@ -41,9 +41,6 @@ $footer_logo = $footer['footer_logo'];
 
 
 		<div class="container">
-		  <div class="copyright text-center ">
-			<p>© <span>Copyright</span> <strong class="px-1 sitename">iPortfolio</strong> <span>All Rights Reserved</span></p>
-		  </div>
 		<div class="credits">
 			Designed by <a href="https://getbootstrap.com/" target="_blanck">Bootstrap,</a> main theme by <a href="https://underscores.me/" target="_blanck">underscore</a>
 		  </div>
