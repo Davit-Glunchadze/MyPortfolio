@@ -29,10 +29,20 @@ $skill_section = get_field('skill_section');
 $skills_progress_1 = $skill_section['skills_progress_1'];
 $skills_progress_2 = $skill_section['skills_progress_2'];
 
+//resume section 
+$resume_section = get_field('resume_section');
+$resume_section_1 = $resume_section ['resume_section_1'];
+$resume_section_2 = $resume_section ['resume_section_2'];
+$resume_button = $resume_section ['resume_button'];
+
+
+
+
+
 // echo '<pre>';
-// print_r($skill_section);
+// print_r($resume_section);
 // echo '</pre>';
-// // die();
+// die();
 ?>
 
 <?php get_header(); ?>
@@ -160,74 +170,47 @@ $skills_progress_2 = $skill_section['skills_progress_2'];
 
   <!-- Section Title -->
   <div class="container section-title" data-aos="fade-up">
-    <h2>Resume</h2>
-    <p>Here, you can find my experience, skills, and projects as a Front-End Developer. I am continuously learning and improving my expertise to build modern and user-friendly web applications. Feel free to download my CV using the button below!</p>
+    <h2><?php echo esc_html($resume_section['resume_section_title']); ?></h2>
+    <p><?php echo esc_html($resume_section['resume_section_description']); ?></p>
   </div><!-- End Section Title -->
 
-  <div class="container">
+    <div class="container">
       <div class="row">
           <!-- Resume Information Column -->
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-              <h3 class="resume-title">Summary</h3>
+            <?php foreach($resume_section_1 as $key => $box_1): ?>
+              <h3 class="resume-title"><?php echo wp_kses_post($box_1['title']); ?></h3>
               <div class="resume-item pb-0">
-                  <h4>Brandon Johnson</h4>
-                  <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and developing user-centered digital/print marketing material from initial concept to final, polished deliverable.</em></p>
-                  <ul>
-                      <li>Portland par 127, Orlando, FL</li>
-                      <li>(123) 456-7891</li>
-                      <li>alice.barkley@example.com</li>
-                  </ul>
+                  <h4><?php echo wp_kses_post($box_1['subtitle']); ?></h4>
+                  <h5><?php echo wp_kses_post($box_1['year']); ?></h5>
+                  <p><em><?php echo wp_kses_post($box_1['location']); ?></em></p>
+                  <p><em><?php echo wp_kses_post($box_1['description']); ?></em></p>
+                  <p><em><?php echo wp_kses_post($box_1['information']); ?></em></p>
               </div>
-              
-              <h3 class="resume-title">Education</h3>
-              <div class="resume-item">
-                  <h4>Master of Fine Arts &amp; Graphic Design</h4>
-                  <h5>2015 - 2016</h5>
-                  <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                  <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit.</p>
-              </div>
-              
-              <div class="resume-item">
-                  <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-                  <h5>2010 - 2014</h5>
-                  <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                  <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel ratione eius unde vitae rerum voluptates.</p>
-              </div>
+            <?php endforeach; ?>
           </div>
               
           <!-- Professional Experience Column -->
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-              <h3 class="resume-title">Professional Experience</h3>
-              <div class="resume-item">
-                  <h4>Senior Graphic Design Specialist</h4>
-                  <h5>2019 - Present</h5>
-                  <p><em>Experion, New York, NY </em></p>
-                  <ul>
-                      <li>Lead in the design, development, and implementation of the graphic, layout, and production communication materials.</li>
-                      <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of the project.</li>
-                      <li>Supervise the assessment of all graphic materials in order to ensure quality and accuracy of the design.</li>
-                      <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000.</li>
-                  </ul>
+          <?php foreach($resume_section_2 as $key => $box_2): ?>
+              <h3 class="resume-title"><?php echo wp_kses_post($box_2['title']); ?></h3>
+              <div class="resume-item pb-0">
+                  <h4><?php echo wp_kses_post($box_2['subtitle']); ?></h4>
+                  <h5><?php echo wp_kses_post($box_2['year']); ?></h5>
+                  <p><em><?php echo wp_kses_post($box_2['location']); ?></em></p>
+                  <p><em><?php echo wp_kses_post($box_2['description']); ?></em></p>
+                  <p><em><?php echo wp_kses_post($box_2['information']); ?></em></p>
               </div>
-              
-              <div class="resume-item">
-                  <h4>Graphic Design Specialist</h4>
-                  <h5>2017 - 2018</h5>
-                  <p><em>Stepping Stone Advertising, New York, NY</em></p>
-                  <ul>
-                      <li>Developed numerous marketing programs (logos, brochures, infographics, presentations, and advertisements).</li>
-                      <li>Managed up to 5 projects or tasks at a given time while under pressure.</li>
-                      <li>Recommended and consulted with clients on the most appropriate graphic design.</li>
-                      <li>Created 4+ design presentations and proposals a month for clients and account managers.</li>
-                  </ul>
-              </div>
+            <?php endforeach; ?>
           </div>
       </div>
-  </div><!-- Resume Information Column -->
+    </div><!-- Resume Information Column -->
     
 </section><!-- /Resume Section -->
 <div class="download-button">
-  <a href="javascript:void(0);" id="downloadBtn" class="btn btn-outline-primary">Download CV</a>
+  <?php if($resume_section['resume_button']): ?>
+  <a href="<?php echo $resume_button['button_link']?>" id="downloadBtn" class="btn btn-outline-primary"><?php echo $resume_button['button_title']?></a>
+  <?php endif; ?>
 </div>
 
 

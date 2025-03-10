@@ -267,7 +267,7 @@ document.getElementById("downloadBtn").addEventListener("click", function() {
 
   html2pdf()
       .from(resumeElement) 
-      .save("My-resume.pdf"); 
+      .save("David-Glunchadze-resume.pdf"); 
 });
 
 
