@@ -36,18 +36,40 @@ $resume_section_2 = $resume_section ['resume_section_2'];
 $resume_button = $resume_section ['resume_button'];
 
 
+$contact_section = get_field('contact_section');
 
+$info_items = [
+  'address' => [
+      'icon' => 'bi-geo-alt',
+      'link' => esc_url($contact_section['address']['address_link']),
+      'title' => wp_kses_post($contact_section['address']['address_title']),
+      'text' => wp_kses_post($contact_section['address']['address_itself']),
+  ],
+  'phone' => [
+      'icon' => 'bi-telephone',
+      'link' => 'Tel:' . wp_kses_post($contact_section['phone']['number']),
+      'title' => wp_kses_post($contact_section['phone']['number_title']),
+      'text' => wp_kses_post($contact_section['phone']['number_itself']),
+  ],
+  'mail' => [
+      'icon' => 'bi-envelope',
+      'link' => 'mailto:' . wp_kses_post($contact_section['mail']['mail']) . '?subject=Hello&body=This%20is%20a%20%20email.',
+      'title' => wp_kses_post($contact_section['mail']['mail_title']),
+      'text' => wp_kses_post($contact_section['mail']['mail_itself']),
+  ]
+];
 
 
 // echo '<pre>';
-// print_r($resume_section);
+// print_r($contact_section);
 // echo '</pre>';
-// die();
+// // die();
 ?>
 
 <?php get_header(); ?>
 
 <main id="main">
+
   <!-- Hero Section -->
   <section id="hero" class="hero section dark-background">
     <img src="<?php echo esc_url($hero_image); ?>" alt="hero-photo" data-aos="fade-in" class="mirrored">
@@ -166,53 +188,90 @@ $resume_button = $resume_section ['resume_button'];
   </section><!-- /Skills Section -->
 
   <!-- Resume Section --> 
-<section id="resume" class="resume section">
+  <section id="resume" class="resume section">
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2><?php echo esc_html($resume_section['resume_section_title']); ?></h2>
+      <p><?php echo esc_html($resume_section['resume_section_description']); ?></p>
+    </div><!-- End Section Title -->
 
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <h2><?php echo esc_html($resume_section['resume_section_title']); ?></h2>
-    <p><?php echo esc_html($resume_section['resume_section_description']); ?></p>
-  </div><!-- End Section Title -->
+      <div class="container">
+        <div class="row">
+            <!-- Resume Information Column -->
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <?php foreach($resume_section_1 as $key => $box_1): ?>
+                <h3 class="resume-title"><?php echo wp_kses_post($box_1['title']); ?></h3>
+                <div class="resume-item pb-0">
+                    <h4><?php echo wp_kses_post($box_1['subtitle']); ?></h4>
+                    <h5><?php echo wp_kses_post($box_1['year']); ?></h5>
+                    <p><em><?php echo wp_kses_post($box_1['location']); ?></em></p>
+                    <p><em><?php echo wp_kses_post($box_1['description']); ?></em></p>
+                    <p><em><?php echo wp_kses_post($box_1['information']); ?></em></p>
+                </div>
+              <?php endforeach; ?>
+            </div>
 
-    <div class="container">
-      <div class="row">
-          <!-- Resume Information Column -->
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <?php foreach($resume_section_1 as $key => $box_1): ?>
-              <h3 class="resume-title"><?php echo wp_kses_post($box_1['title']); ?></h3>
-              <div class="resume-item pb-0">
-                  <h4><?php echo wp_kses_post($box_1['subtitle']); ?></h4>
-                  <h5><?php echo wp_kses_post($box_1['year']); ?></h5>
-                  <p><em><?php echo wp_kses_post($box_1['location']); ?></em></p>
-                  <p><em><?php echo wp_kses_post($box_1['description']); ?></em></p>
-                  <p><em><?php echo wp_kses_post($box_1['information']); ?></em></p>
-              </div>
-            <?php endforeach; ?>
+            <!-- Professional Experience Column -->
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <?php foreach($resume_section_2 as $key => $box_2): ?>
+                <h3 class="resume-title"><?php echo wp_kses_post($box_2['title']); ?></h3>
+                <div class="resume-item pb-0">
+                    <h4><?php echo wp_kses_post($box_2['subtitle']); ?></h4>
+                    <h5><?php echo wp_kses_post($box_2['year']); ?></h5>
+                    <p><em><?php echo wp_kses_post($box_2['location']); ?></em></p>
+                    <p><em><?php echo wp_kses_post($box_2['description']); ?></em></p>
+                    <p><em><?php echo wp_kses_post($box_2['information']); ?></em></p>
+                </div>
+              <?php endforeach; ?>
+            </div>
+        </div>
+      </div><!-- Resume Information Column -->
+  </section><!-- /Resume Section -->
+
+  <!-- /Resume Section button -->
+  <div class="download-button">
+    <?php if($resume_section['resume_button']): ?>
+    <a href="javascript:void(0);" id="downloadBtn" class="btn btn-outline-primary"><?php echo $resume_button['button_title']?></a>
+    <?php endif; ?>
+  </div><!-- /Resume Section button -->
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact section">
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2><?php echo wp_kses_post($contact_section['contact_title'])?></h2>
+      <p><?php echo wp_kses_post($contact_section['contact_description'])?></p>
+    </div><!-- End Section Title -->
+    <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="row gy-4">
+        <div class="col-lg-5">
+          <div class="info-wrap">
+              <?php foreach ($info_items as $key => $item) :
+                if (!empty($item['link'])) : ?>
+                    <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                        <a href="<?php echo $item['link']; ?>" target="_blanket">
+                            <i class="bi <?php echo $item['icon']; ?> flex-shrink-0"></i>
+                        </a>
+                        <div>
+                            <h3><?php echo $item['title']; ?></h3>
+                            <p><?php echo $item['text']; ?></p>
+                        </div>
+                    </div><!-- End Info Item -->
+                <?php endif; 
+              endforeach; ?>
+              <iframe src="<?php echo  esc_url($contact_section['google_address'])?>" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
-              
-          <!-- Professional Experience Column -->
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-          <?php foreach($resume_section_2 as $key => $box_2): ?>
-              <h3 class="resume-title"><?php echo wp_kses_post($box_2['title']); ?></h3>
-              <div class="resume-item pb-0">
-                  <h4><?php echo wp_kses_post($box_2['subtitle']); ?></h4>
-                  <h5><?php echo wp_kses_post($box_2['year']); ?></h5>
-                  <p><em><?php echo wp_kses_post($box_2['location']); ?></em></p>
-                  <p><em><?php echo wp_kses_post($box_2['description']); ?></em></p>
-                  <p><em><?php echo wp_kses_post($box_2['information']); ?></em></p>
-              </div>
-            <?php endforeach; ?>
-          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <?php echo do_shortcode('[contact-form-7 id="a173800" title="Contact form 1"]'); ?>
+        </div><!-- End Contact Form -->
+
       </div>
-    </div><!-- Resume Information Column -->
-    
-</section><!-- /Resume Section -->
-<div class="download-button">
-  <?php if($resume_section['resume_button']): ?>
-  <a href="<?php echo $resume_button['button_link']?>" id="downloadBtn" class="btn btn-outline-primary"><?php echo $resume_button['button_title']?></a>
-  <?php endif; ?>
-</div>
 
+    </div>
+
+  </section><!-- /Contact Section -->
 
 </main>
 
