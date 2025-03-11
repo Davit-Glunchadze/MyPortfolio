@@ -262,12 +262,17 @@ if (typeof GLightbox !== 'undefined') {
 /**
  * Function to download the resume as a PDF file
  */
-document.getElementById("downloadBtn").addEventListener("click", function() {
-  const resumeElement = document.getElementById("resume"); 
+document.getElementById("downloadBtn").addEventListener("click", function(event) {
+  event.preventDefault(); // Prevent default link behavior
 
+  const resumeElement = document.getElementById("resume");
+
+  console.log(resumeElement);  // დათვალიერება, რომ ელემენტი სწორად გამორჩევა
   html2pdf()
-      .from(resumeElement) 
-      .save("David-Glunchadze-resume.pdf"); 
+      .from(resumeElement)
+      .save("David-Glunchadze-resume.pdf");
 });
+
+
 
 
