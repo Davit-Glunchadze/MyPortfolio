@@ -9,6 +9,8 @@
  * @package MyPortfolio
  */
 
+require_once(ABSPATH . 'wp-load.php');
+
 $header = get_field('header');
 $favicon_logo = $header['favicon_logo'];
 $profile_image = $header['profile_image'];
