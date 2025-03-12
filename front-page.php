@@ -240,12 +240,6 @@ $portfolio_cards = $portfolio_section['portfolio_cards'];
     <?php endif; ?>
   </div><!-- /Resume Section button -->
 
-<?php 
-echo '<pre>';
-print_r($portfolio_section);
-echo '</pre>';
-// die();
-?>
   <!-- Portfolio Section -->
   <section id="portfolio" class="portfolio section light-background">
 
@@ -260,7 +254,7 @@ echo '</pre>';
       <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
         <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter="*" class="filter-active"><?php echo wp_kses_post($portfolio_section['all_cards_title']); ?></li>
           <?php foreach($portfolio_filter_menu as $menu): ?>
           <?php if(wp_kses_post($menu)): ?>
             <li data-filter=".filter-app"><?php echo wp_kses_post($menu)?></li>
@@ -270,27 +264,22 @@ echo '</pre>';
 
         <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
           <?php foreach($portfolio_cards as $card): ?>
-          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-<?php echo wp_kses_post($card['filter_label']) ?>">
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-<?php echo wp_kses_post($card['card_filter_address_lowercase_letters']) ?>">
             <div class="portfolio-content h-100">
               <img src="<?php echo  esc_url($card['portfolio_image'])?>" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4><?php echo wp_kses_post($card['card_order']) ?></h4>
+                <h4><?php echo wp_kses_post($card['small_card_title']) ?></h4>
                 <p><?php echo wp_kses_post($card['card_description']) ?></p>
-                <a href="<?php echo  esc_url($card['card_photo'])?>" title="<?php echo wp_kses_post($card['card_order_label']) ?>" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                <a href="<?php echo  esc_url($card['card_big_photo'])?>" title="<?php echo wp_kses_post($card['big_card_title']) ?>" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="<?php echo wp_kses_post($card['card_page_link']) ?>" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
               </div>
             </div>
           </div><!-- End Portfolio Item -->
           <?php endforeach; ?>
 
-          
-
         </div><!-- End Portfolio Container -->
-
       </div>
-
     </div>
-
   </section><!-- /Portfolio Section -->
 
   <!-- Services Section -->
