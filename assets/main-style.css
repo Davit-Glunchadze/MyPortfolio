@@ -181,178 +181,6 @@
 }
 
 /*--------------------------------------------------------------
-# Global Footer 
---------------------------------------------------------------*/
-.footer {
-  color: var(--default-color);
-  background-color: color-mix(in srgb, var(--default-color), transparent 80%);
-  font-size: 14px;
-  padding: 20px 0 20px;
-  position: relative;
-  border-top: 1px solid;
-}
-
-.footer .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer-quotes {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 20px;
-}
-
-.footer-quotes h3 {
-  font-size: 23px;
-  text-align: center;
-  line-height: 40px;
-  font-style: italic;
-  color: var(--default-color);
-}
-
-.footer .footer-logo {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 15px;
-}
-
-.footer-logo a img {
-  max-height: 50px;
-  margin: 10px 0;
-}
-
-.footer-logo a img:hover {
-  transform: scale(1.1);
-  transition: 0.3s ease-in-out;
-}
-
-.footer .copyright p {
-  margin-bottom: 0;
-}
-
-.footer .credits {
-  margin-top: 4px;
-  font-size: 13px;
-  text-align: center;
-}
-
-.menu-footer-more-container ul li {
-  color: var(--nav-color);
-  padding: 15px 10px;
-  font-family: var(--nav-font);
-  font-size: 16px;
-  font-weight: 400;
-  display: flex;
-  align-items: center;
-  transition: 0.3s;
-}
-
-.menu-footer-more-container ul li:hover {
-  color: var(--accent-color);
-  transform: scale(1.01);
-}
-
-.menu-footer-more-container ul {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-}
-
-/*--------------------------------------------------------------
-# Preloader 
---------------------------------------------------------------*/
-#preloader {
-  position: fixed;
-  inset: 0;
-  z-index: 999999;
-  overflow: hidden;
-  background: var(--background-color);
-  transition: all 0.6s ease-out;
-}
-
-#preloader:before {
-  content: "";
-  position: fixed;
-  top: calc(50% - 30px);
-  left: calc(50% - 30px);
-  border: 6px solid #ffffff;
-  border-color: var(--accent-color) transparent var(--accent-color) transparent;
-  border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  animation: animate-preloader 1.5s linear infinite;
-}
-
-@keyframes animate-preloader {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-/*--------------------------------------------------------------
-# Scroll Top Button 
---------------------------------------------------------------*/
-.scroll-top {
-  position: fixed;
-  visibility: hidden;
-  opacity: 0;
-  right: 15px;
-  bottom: -15px;
-  z-index: 99999;
-  background-color: var(--accent-color);
-  width: 44px;
-  height: 44px;
-  border-radius: 50px;
-  transition: all 0.4s;
-}
-
-.scroll-top i {
-  font-size: 24px;
-  color: var(--contrast-color);
-  line-height: 0;
-}
-
-.scroll-top:hover {
-  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
-  color: var(--contrast-color);
-}
-
-.scroll-top.active {
-  visibility: visible;
-  opacity: 1;
-  bottom: 15px;
-}
-
-/*--------------------------------------------------------------
-# Disable aos animation delay on mobile devices 
---------------------------------------------------------------*/
-@media screen and (max-width: 768px) {
-  [data-aos-delay] {
-    transition-delay: 0 !important;
-  }
-
-  .menu-footer-more-container ul {
-    flex-wrap: wrap;
-    gap: 15px;
-  }
-
-  .menu-footer-more-container ul li {
-    padding: 0;
-    font-size: 14px;
-  }
-}
-
-/*--------------------------------------------------------------
 # Hero Section 
 --------------------------------------------------------------*/
 .hero {
@@ -667,130 +495,13 @@
   margin: 0 auto 50px;
 }
 
-/*--------------------------------------------------------------
-# Contact Section
---------------------------------------------------------------*/
-.contact .info-wrap {
-  background-color: var(--surface-color);
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  padding: 30px;
-}
-
-@media (max-width: 575px) {
-  .contact .info-wrap {
-    padding: 20px;
-  }
-}
-
-.contact .info-item {
-  margin-bottom: 40px;
-}
-
-.contact .info-item i {
-  font-size: 20px;
-  color: var(--accent-color);
-  background: color-mix(in srgb, var(--accent-color), transparent 92%);
-  width: 44px;
-  height: 44px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50px;
-  transition: all 0.3s ease-in-out;
-  margin-right: 15px;
-}
-
-.contact .info-item h3 {
-  padding: 0;
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 5px;
-}
-
-.contact .info-item p {
-  padding: 0;
-  margin-bottom: 0;
-  font-size: 14px;
-}
-
-.contact .info-item:hover i {
-  background: var(--accent-color);
-  color: var(--contrast-color);
-}
-
-/* Contact Form 7 Submit Button */
-.wpcf7-form-control.wpcf7-submit {
-  color: var(--contrast-color);
-  background: var(--accent-color);
-  border: 0;
-  
-  border-radius: 50px;
-  margin: 24px 0 0;
-  cursor: pointer;
-  font-size: 18px;
-  padding: 10px 30px;
-  justify-content: center;
-}
-
-.wpcf7-form-control.wpcf7-submit:hover {
-  background: color-mix(in srgb, var(--accent-color), transparent 25%);
-  transform: scale(1.1);
-  transition: ease 0.4s;
-}
-
-.wpcf7 input[type="submit"] {
-  display: block;
-  margin: 24px auto 0;
-}
-
-/* form input */
-.wpcf7-form-control.wpcf7-text {
-  font-size: 16px;
-  width: 100%;
-  border: 1px solid #ccc;
-  padding: 10px 15px;
-  box-shadow: none;
-  border-radius: 0;
-  color: var(--default-color);
-  background-color: var(--surface-color);
-  border-color: color-mix(in srgb, var(--default-color), transparent 80%);
-  margin: 10px 0;
-}
-
-/* textarea */
-.wpcf7-form-control.wpcf7-textarea {
-  font-size: 16px;
-  width: 100%;
-  height: 182px;
-  padding: 10px 15px;
-  box-shadow: none;
-  border-radius: 0;
-  color: var(--default-color);
-  background-color: var(--surface-color);
-  border-color: color-mix(in srgb, var(--default-color), transparent 80%);
-  margin-top: 10px;
-}
-
-/* form */
-.wpcf7 form {
-  background-color: var(--surface-color);
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-}
-
-.wpcf7 label {
-  font-size: 16px;
-  color: #333;
-}
-
-.wpcf7 label:focus-within {
-  color: var(--default-color);
-}
-
 
 /*--------------------------------------------------------------
 # Portfolio Section
 --------------------------------------------------------------*/
+.portfolio .container p{
+  line-height: 30px;
+}
 .portfolio .portfolio-filters {
   padding: 0;
   margin: 0 auto 20px auto;
@@ -1180,4 +891,297 @@
   margin-right: 8px;
   color: var(--accent-color);
 }
- */
+
+/*--------------------------------------------------------------
+# Contact Section
+--------------------------------------------------------------*/
+.contact .info-wrap {
+  background-color: var(--surface-color);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+@media (max-width: 575px) {
+  .contact .info-wrap {
+    padding: 20px;
+  }
+}
+
+.contact .info-item {
+  margin-bottom: 40px;
+}
+
+.contact .info-item i {
+  font-size: 20px;
+  color: var(--accent-color);
+  background: color-mix(in srgb, var(--accent-color), transparent 92%);
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  margin-right: 15px;
+}
+
+.contact .info-item h3 {
+  padding: 0;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.contact .info-item p {
+  padding: 0;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.contact .info-item:hover i {
+  background: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+/* Contact Form 7 Submit Button */
+.wpcf7-form-control.wpcf7-submit {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  border: 0;
+  
+  border-radius: 50px;
+  margin: 24px 0 0;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 10px 30px;
+  justify-content: center;
+}
+
+.wpcf7-form-control.wpcf7-submit:hover {
+  background: color-mix(in srgb, var(--accent-color), transparent 25%);
+  transform: scale(1.1);
+  transition: ease 0.4s;
+}
+
+.wpcf7 input[type="submit"] {
+  display: block;
+  margin: 24px auto 0;
+}
+
+/* form input */
+.wpcf7-form-control.wpcf7-text {
+  font-size: 16px;
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px 15px;
+  box-shadow: none;
+  border-radius: 0;
+  color: var(--default-color);
+  background-color: var(--surface-color);
+  border-color: color-mix(in srgb, var(--default-color), transparent 80%);
+  margin: 10px 0;
+}
+
+/* textarea */
+.wpcf7-form-control.wpcf7-textarea {
+  font-size: 16px;
+  width: 100%;
+  height: 182px;
+  padding: 10px 15px;
+  box-shadow: none;
+  border-radius: 0;
+  color: var(--default-color);
+  background-color: var(--surface-color);
+  border-color: color-mix(in srgb, var(--default-color), transparent 80%);
+  margin-top: 10px;
+}
+
+/* form */
+.wpcf7 form {
+  background-color: var(--surface-color);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.wpcf7 label {
+  font-size: 16px;
+  color: #333;
+}
+
+.wpcf7 label:focus-within {
+  color: var(--default-color);
+}
+
+/*--------------------------------------------------------------
+# Global Footer 
+--------------------------------------------------------------*/
+.footer {
+  color: var(--default-color);
+  background-color: color-mix(in srgb, var(--default-color), transparent 80%);
+  font-size: 14px;
+  padding: 20px 0 20px;
+  position: relative;
+  border-top: 1px solid;
+}
+
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-quotes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.footer-quotes h3 {
+  font-size: 23px;
+  text-align: center;
+  line-height: 40px;
+  font-style: italic;
+  color: var(--default-color);
+}
+
+.footer .footer-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.footer-logo a img {
+  max-height: 50px;
+  margin: 10px 0;
+}
+
+.footer-logo a img:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+
+.footer .copyright p {
+  margin-bottom: 0;
+}
+
+.footer .credits {
+  margin-top: 4px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.menu-footer-more-container ul li {
+  color: var(--nav-color);
+  padding: 15px 10px;
+  font-family: var(--nav-font);
+  font-size: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  transition: 0.3s;
+}
+
+.menu-footer-more-container ul li:hover {
+  color: var(--accent-color);
+  transform: scale(1.01);
+}
+
+.menu-footer-more-container ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+/*--------------------------------------------------------------
+# Preloader 
+--------------------------------------------------------------*/
+#preloader {
+  position: fixed;
+  inset: 0;
+  z-index: 999999;
+  overflow: hidden;
+  background: var(--background-color);
+  transition: all 0.6s ease-out;
+}
+
+#preloader:before {
+  content: "";
+  position: fixed;
+  top: calc(50% - 30px);
+  left: calc(50% - 30px);
+  border: 6px solid #ffffff;
+  border-color: var(--accent-color) transparent var(--accent-color) transparent;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  animation: animate-preloader 1.5s linear infinite;
+}
+
+@keyframes animate-preloader {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*--------------------------------------------------------------
+# Scroll Top Button 
+--------------------------------------------------------------*/
+.scroll-top {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  right: 15px;
+  bottom: -15px;
+  z-index: 99999;
+  background-color: var(--accent-color);
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  transition: all 0.4s;
+}
+
+.scroll-top i {
+  font-size: 24px;
+  color: var(--contrast-color);
+  line-height: 0;
+}
+
+.scroll-top:hover {
+  background-color: color-mix(in srgb, var(--accent-color), transparent 20%);
+  color: var(--contrast-color);
+}
+
+.scroll-top.active {
+  visibility: visible;
+  opacity: 1;
+  bottom: 15px;
+}
+
+/*--------------------------------------------------------------
+# Disable aos animation delay on mobile devices 
+--------------------------------------------------------------*/
+@media screen and (max-width: 768px) {
+  [data-aos-delay] {
+    transition-delay: 0 !important;
+  }
+
+  .menu-footer-more-container ul {
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .menu-footer-more-container ul li {
+    padding: 0;
+    font-size: 14px;
+  }
+}
+
+ 
