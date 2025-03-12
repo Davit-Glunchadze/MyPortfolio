@@ -7,6 +7,11 @@
  * @package MyPortfolio
  */
 
+// Ensure WordPress environment is loaded
+if ( ! function_exists( 'add_action' ) ) {
+	require_once( dirname( __FILE__ ) . '/../../../../wp-load.php' );
+}
+
 if ( ! defined( '_S_VERSION' ) ) {
 	// Replace the version number of the theme on each release.
 	define( '_S_VERSION', '1.0.0' );
@@ -187,12 +192,6 @@ if ( defined( 'JETPACK__VERSION' ) ) {
  * import javascript file.
  */
 
-function custom_theme_scripts() {
-    // Add and register main.js file
-    wp_enqueue_script('main-js', get_template_directory_uri() . '/js/main.js', array('jquery'), '1.0.0', true);
-}
-add_action('wp_enqueue_scripts', 'custom_theme_scripts');
-
 /**
  * import main-css file.
  */
@@ -289,14 +288,9 @@ add_action('wp_head', 'my_theme_enqueue_styles');
  * footer scripts
  */
 function enqueue_custom_scripts() {
-    // Main JS File
-    wp_enqueue_script('main-js', get_template_directory_uri() . '/js/main.js', array('jquery'), null, true);
 
     // Bootstrap
     wp_enqueue_script('bootstrap-bundle', get_template_directory_uri() . '/vendor/bootstrap/js/bootstrap.bundle.min.js', array('jquery'), null, true);
-
-    // PHP Email Form Validation
-    wp_enqueue_script('php-email-form', get_template_directory_uri() . '/vendor/php-email-form/validate.js', array(), null, true);
 
     // Typed.js
     wp_enqueue_script('typed', get_template_directory_uri() . '/vendor/typed.js/typed.umd.js', array(), null, true);
@@ -307,8 +301,11 @@ function enqueue_custom_scripts() {
     // Waypoints
     wp_enqueue_script('waypoints', get_template_directory_uri() . '/vendor/waypoints/noframework.waypoints.js', array(), null, true);
 
-    // GLightbox
+    // GLightbox-min
     wp_enqueue_script('glightbox', get_template_directory_uri() . '/vendor/glightbox/js/glightbox.min.js', array(), null, true);
+
+	// GLightbox
+    wp_enqueue_script('glightbox', get_template_directory_uri() . '/vendor/glightbox/js/glightbox.js', array(), null, true);
 
     // ImagesLoaded
     wp_enqueue_script('imagesloaded', get_template_directory_uri() . '/vendor/imagesloaded/imagesloaded.pkgd.min.js', array(), null, true);
@@ -330,5 +327,6 @@ function enqueue_custom_scripts() {
 
     // html2pdf JS from CDN
     wp_enqueue_script('html2pdf-cdn', 'https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.js', array(), null, true);
+
 }
 add_action('wp_footer', 'enqueue_custom_scripts');

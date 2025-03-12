@@ -1,20 +1,11 @@
-/**
-* Template Name: iPortfolio
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Updated: Jun 29 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-(function() {
-  "use strict";
-
+  
   /**
    * Header toggle
    */
   const headerToggleBtn = document.querySelector('.header-toggle');
   function headerToggle() {
-    document.querySelector('#header').classList.toggle('header-show');
+    const header = document.querySelector('#header');
+    header.classList.toggle('header-show');
     headerToggleBtn.classList.toggle('bi-list');
     headerToggleBtn.classList.toggle('bi-x');
   }
@@ -25,18 +16,19 @@
   /**
    * Hide mobile nav on same-page/hash links
    */
-  document.querySelectorAll('#navmenu a').forEach(navmenu => {
+  const navmenuLinks = document.querySelectorAll('#navmenu a');
+  navmenuLinks.forEach(navmenu => {
     navmenu.addEventListener('click', () => {
       if (document.querySelector('.header-show')) {
         headerToggle();
       }
     });
   });
-
   /**
    * Toggle mobile nav dropdowns
    */
-  document.querySelectorAll('.navmenu .toggle-dropdown').forEach(navmenu => {
+  const toggleDropdowns = document.querySelectorAll('.navmenu .toggle-dropdown');
+  toggleDropdowns.forEach(navmenu => {
     navmenu.addEventListener('click', function(e) {
       e.preventDefault();
       this.parentNode.classList.toggle('active');
@@ -102,7 +94,7 @@
         let typed_strings = selectTyped.getAttribute('data-typed-items');
         typed_strings = typed_strings.split(',');
         if (typeof Typed !== 'undefined') {
-            new Typed('.typed', {
+            new Typed(selectTyped, {
                 strings: typed_strings,
                 loop: true,
                 typeSpeed: 100,
@@ -126,13 +118,13 @@
    * Animate the skills items on reveal
    */
   document.addEventListener('DOMContentLoaded', function() {
-    let skillsAnimation = document.querySelectorAll('.skills-animation');
+    const skillsAnimation = document.querySelectorAll('.skills-animation');
     skillsAnimation.forEach((item) => {
       new Waypoint({
         element: item,
         offset: '80%',
         handler: function(direction) {
-          let progress = item.querySelectorAll('.progress .progress-bar');
+          const progress = item.querySelectorAll('.progress .progress-bar');
           progress.forEach(el => {
             el.style.width = el.getAttribute('aria-valuenow') + '%';
           });
@@ -148,22 +140,14 @@
   
   // Ensure GLightbox is loaded before initializing
   document.addEventListener('DOMContentLoaded', function() {
-    if (typeof GLightbox !== 'undefined') {
-        const glightbox = GLightbox({
-            selector: '.glightbox'
-        });
-    } else {
-        console.error("GLightbox script is not loaded.");
-    }
-  });
-
-if (typeof GLightbox !== 'undefined') {
+  if (typeof GLightbox !== 'undefined') {
     const glightbox = GLightbox({
       selector: '.glightbox'
     });
   } else {
     console.error("GLightbox script is not loaded.");
   }
+});
 
   /**
    * Init isotope layout and filters
@@ -173,30 +157,22 @@ if (typeof GLightbox !== 'undefined') {
     let filter = isotopeItem.getAttribute('data-default-filter') ?? '*';
     let sort = isotopeItem.getAttribute('data-sort') ?? 'original-order';
 
+    // Check filter validation
+    if (filter !== '*' && !document.querySelector(filter)) {
+        console.error('Invalid filter selector:', filter);
+    }
+
     let initIsotope;
     imagesLoaded(isotopeItem.querySelector('.isotope-container'), function() {
-      initIsotope = new Isotope(isotopeItem.querySelector('.isotope-container'), {
-        itemSelector: '.isotope-item',
-        layoutMode: layout,
-        filter: filter,
-        sortBy: sort
-      });
-    });
-
-    isotopeItem.querySelectorAll('.isotope-filters li').forEach(function(filters) {
-      filters.addEventListener('click', function() {
-        isotopeItem.querySelector('.isotope-filters .filter-active').classList.remove('filter-active');
-        this.classList.add('filter-active');
-        initIsotope.arrange({
-          filter: this.getAttribute('data-filter')
+        initIsotope = new Isotope(isotopeItem.querySelector('.isotope-container'), {
+            itemSelector: '.isotope-item',
+            layoutMode: layout,
+            filter: filter,  // შერჩეული ფილტრი
+            sortBy: sort
         });
-        if (typeof aosInit === 'function') {
-          aosInit();
-        }
-      }, false);
     });
+});
 
-  });
 
   /**
    * Init swiper sliders
@@ -238,7 +214,7 @@ if (typeof GLightbox !== 'undefined') {
   /**
    * Navmenu Scrollspy
    */
-  let navmenulinks = document.querySelectorAll('.navmenu a');
+  const navmenulinks = document.querySelectorAll('.navmenu a');
 
   function navmenuScrollspy() {
     navmenulinks.forEach(navmenulink => {
@@ -257,22 +233,34 @@ if (typeof GLightbox !== 'undefined') {
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
-})();
 
 /**
  * Function to download the resume as a PDF file
  */
-document.getElementById("downloadBtn").addEventListener("click", function(event) {
-  event.preventDefault(); // Prevent default link behavior
+const downloadBtn = document.querySelector("#downloadBtn");
+const resumeElement = document.querySelector("#resume");
+document.addEventListener('DOMContentLoaded', function() {
+  const downloadBtn = document.querySelector("#downloadBtn");
+  const resumeElement = document.querySelector("#resume");
 
-  const resumeElement = document.getElementById("resume");
-
-  console.log(resumeElement);  // დათვალიერება, რომ ელემენტი სწორად გამორჩევა
-  html2pdf()
-      .from(resumeElement)
-      .save("David-Glunchadze-resume.pdf");
+  if (downloadBtn && resumeElement) {
+    downloadBtn.addEventListener("click", () => {
+      downloadBtn.disabled = true;
+      downloadBtn.textContent = "Generating PDF...";
+      html2pdf()
+        .from(resumeElement)
+        .save("David-Glunchadze-resume.pdf")
+        .then(() => {
+          downloadBtn.disabled = false;
+          downloadBtn.textContent = "Download Resume";
+        })
+        .catch((error) => {
+          console.error("Error generating PDF:", error);
+          downloadBtn.disabled = false;
+          downloadBtn.textContent = "Download Resume";
+        });
+    });
+  } else {
+    console.error("Element with id 'resume' or 'downloadBtn' not found.");
+  }
 });
-
-
-
-

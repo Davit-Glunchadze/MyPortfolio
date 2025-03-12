@@ -1,4 +1,7 @@
 <?php
+if (!defined('ABSPATH')) {
+	exit; // Exit if accessed directly
+}
 
 $header = get_field('header');
 $sitename = $header['sitename'];
@@ -42,9 +45,11 @@ $footer_logo = $footer['footer_logo'];
 
 		<div class="container">
 		<div class="credits">
-			Designed by <a href="https://getbootstrap.com/" target="_blanck">Bootstrap,</a> main theme by <a href="https://underscores.me/" target="_blanck">underscore</a>
+			Designed by <a href="https://getbootstrap.com/" target="_blank">Bootstrap,</a> main theme by <a href="https://underscores.me/" target="_blank">underscore</a>
 		  </div>
 		</div>
+
+		
 
 	</footer>
 </div><!-- #page -->
@@ -55,6 +60,13 @@ $footer_logo = $footer['footer_logo'];
 
 <!-- Preloader -->
 <div id="preloader"></div>
+<script src="<?php echo get_template_directory_uri(). '/vendor/glightbox/js/glightbox.js'?>"></script>
+<script src="<?php echo get_template_directory_uri(). '/vendor/isotope-layout/isotope.pkgd.min.js'?>"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
+<script src="<?php echo get_template_directory_uri(). '/vendor/imagesloaded/imagesloaded.pkgd.min.js'?>"></script>
+<script src="<?php echo get_template_directory_uri(). '/js/main.js'?>"></script>
+
+
 
 <?php wp_footer(); ?>
 
