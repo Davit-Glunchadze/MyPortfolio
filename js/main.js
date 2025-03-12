@@ -149,14 +149,13 @@
   }
 });
 
-  /**
+ /**
    * Init isotope layout and filters
    */
-  document.querySelectorAll('.isotope-layout').forEach(function(isotopeItem) {
-    let layout = isotopeItem.getAttribute('data-layout') ?? 'masonry';
-    let filter = isotopeItem.getAttribute('data-default-filter') ?? '*';
-    let sort = isotopeItem.getAttribute('data-sort') ?? 'original-order';
+document.addEventListener("DOMContentLoaded", function() {
+  let isotopeContainers = document.querySelectorAll('.isotope-layout');
 
+<<<<<<< HEAD
     // Check filter validation
     if (filter !== '*' && !document.querySelector(filter)) {
         console.error('Invalid filter selector:', filter);
@@ -173,6 +172,48 @@
     });
 });
 
+=======
+  isotopeContainers.forEach(function(isotopeItem) {
+      let layout = isotopeItem.getAttribute('data-layout') || 'masonry';
+      let filter = isotopeItem.getAttribute('data-default-filter') || '*';
+      let sort = isotopeItem.getAttribute('data-sort') || 'original-order';
+      
+      let container = isotopeItem.querySelector('.isotope-container');
+
+      if (!container) {
+          console.error("Isotope container not found inside", isotopeItem);
+          return;
+      }
+
+      // ელოდება, სანამ სურათები ჩაიტვირთება
+      imagesLoaded(container, function() {
+          let iso = new Isotope(container, {
+              itemSelector: '.isotope-item',
+              layoutMode: layout,
+              filter: filter,
+              sortBy: sort
+          });
+
+          // ფილტრის ღილაკებზე კლიკის დამატება
+          let filters = document.querySelectorAll('.portfolio-filters li');
+          filters.forEach(function(filterBtn) {
+              filterBtn.addEventListener('click', function() {
+                  let filterValue = this.getAttribute('data-filter');
+
+                  // ყველა ღილაკიდან ვშლით `filter-active` კლასს
+                  document.querySelector('.portfolio-filters .filter-active')?.classList.remove('filter-active');
+                  
+                  // ვამატებთ `filter-active` მიმდინარე ღილაკს
+                  this.classList.add('filter-active');
+
+                  // ვცვლით Isotope-ის ფილტრს
+                  iso.arrange({ filter: filterValue });
+              });
+          });
+      });
+  });
+});
+>>>>>>> 4842a9bdbebabce802a7f183ad4a6954c814d87e
 
   /**
    * Init swiper sliders
