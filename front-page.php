@@ -1,5 +1,8 @@
 <?php
 require_once(ABSPATH . 'wp-load.php');
+require_once(ABSPATH . 'wp-includes/formatting.php');
+require_once(ABSPATH . 'wp-includes/kses.php');
+
 // hero section
 $hero_section = get_field('hero_section');
 $hero_image = $hero_section['hero_image'];
@@ -61,14 +64,26 @@ $info_items = [
 ];
 
 $portfolio_section = get_field('portfolio_section');
-$portfolio_filter_menu = $portfolio_section ['portfolio_filter_menu'];
-$portfolio_cards = $portfolio_section['portfolio_cards'];
+$portfolio_filter_menu = $portfolio_section['portfolio_filter_menu'] ?? [];
+$portfolio_cards = $portfolio_section['portfolio_cards'] ?? [];
+
+if (!empty($portfolio_cards) && !isset($portfolio_cards[0])) {
+    $portfolio_cards = [$portfolio_cards]; 
+}
+
+if (!empty($portfolio_cards) && !isset($portfolio_cards[0])) {
+    $portfolio_cards = [$portfolio_cards];
+}
+
+$portfolio_cards = $portfolio_cards[0];
+
+
 
 
 // echo '<pre>';
-// print_r($portfolio_filters);
+// print_r($portfolio_cards);
 // echo '</pre>';
-// // die();
+
 ?>
 
 <?php get_header(); ?>
@@ -239,48 +254,6 @@ $portfolio_cards = $portfolio_section['portfolio_cards'];
     <a href="javascript:void(0);" id="downloadBtn" class="btn btn-outline-primary"><?php echo $resume_button['button_title']?></a>
     <?php endif; ?>
   </div><!-- /Resume Section button -->
-
-  <!-- Portfolio Section -->
-  <section id="portfolio" class="portfolio section light-background">
-
-    <!-- Section Title -->
-    <div class="container section-title" data-aos="fade-up">
-      <h2><?php echo wp_kses_post($portfolio_section['portfolio_title']); ?></h2>
-      <p><?php echo wp_kses_post($portfolio_section['portfolio_description']); ?></p>
-    </div><!-- End Section Title -->
-
-    <div class="container">
-
-      <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-        <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-          <li data-filter="*" class="filter-active"><?php echo wp_kses_post($portfolio_section['all_cards_title']); ?></li>
-          <?php foreach($portfolio_filter_menu as $menu): ?>
-          <?php if(wp_kses_post($menu)): ?>
-            <li data-filter=".filter-app"><?php echo wp_kses_post($menu)?></li>
-          <?php endif; ?>
-          <?php endforeach; ?>
-        </ul><!-- End Portfolio Filters -->
-
-        <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-          <?php foreach($portfolio_cards as $card): ?>
-          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-<?php echo wp_kses_post($card['card_filter_address_lowercase_letters']) ?>">
-            <div class="portfolio-content h-100">
-              <img src="<?php echo  esc_url($card['portfolio_image'])?>" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4><?php echo wp_kses_post($card['small_card_title']) ?></h4>
-                <p><?php echo wp_kses_post($card['card_description']) ?></p>
-                <a href="<?php echo  esc_url($card['card_big_photo'])?>" title="<?php echo wp_kses_post($card['big_card_title']) ?>" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="<?php echo wp_kses_post($card['card_page_link']) ?>" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div>
-          </div><!-- End Portfolio Item -->
-          <?php endforeach; ?>
-
-        </div><!-- End Portfolio Container -->
-      </div>
-    </div>
-  </section><!-- /Portfolio Section -->
 
   <!-- Services Section -->
   <section id="services" class="services section">
